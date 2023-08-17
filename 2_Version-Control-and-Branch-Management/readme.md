@@ -37,7 +37,7 @@ Pengurangan Bug: Tinjauan kode membantu mengidentifikasi dan memperbaiki bug seb
 # Latihan Materi Section 2
 
 **1. Membuat Repository baru dengan format namakelas_namakalian**
-![Membuat Repository baru](https://ibb.co/xMTwxRx)
+![Membuat Repository baru]([https://ibb.co/xMTwxRx](https://github.com/yuumens/react_Ahmad-Rizky-Has/assets/98307842/2e415d1c-69b2-4165-957a-2f06cdc636fb))
 
 **2.Buatlah folder yang berurutan dan diberi nama sesuai dengan nama soal yang kalian kerjakan:**
 ![Membuat Folder baru](https://ibb.co/DYYtRNr)
