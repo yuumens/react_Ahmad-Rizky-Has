@@ -18,7 +18,36 @@
     Seorang Front-End Developer harus bekerja erat dengan desainer UX/UI, Back-End Developer, dan tim pengembangan lainnya. Kolaborasi yang baik memastikan bahwa visi desain dan fungsionalitas terwujud dalam antarmuka pengguna akhir. Front-End Developer mengintegrasikan data dari Back-End Developer ke dalam antarmuka pengguna, memastikan bahwa informasi yang ditampilkan akurat dan diperbarui secara real-time.
 
 
-[Link Google Docs Latihan Section 1](https://docs.google.com/document/d/1246QIq01tDX9mHuuhAqL3L7fVB7zSsuHt4sGP_Byt_8/edit?usp=sharing)
+**1. Tuliskan 3 bahasa pemrograman untuk membuat website front end**
+	- HTML
+	- CSS
+	- JavaScript
+ 
+**2. Cari dan tuliskan 5 website front end yang sering kalian gunakan, sertakan juga alamatnya**
+	- https://www.freecodecamp.org/
+	- https://www.codewell.cc/
+	- https://www.codecademy.com/
+	- https://css-tricks.com/
+	- https://www.w3schools.com/
+ 
+**3. Tuliskan 10 hal yang harus dipahami seorang front end developer berdasarkan roadmap.sh ?**
+	1. Konsep-Konsep Internet
+	2. Basic HTML
+	3. Basic CSS
+	4. Basic JavaScript
+	4. Version Control Systems (VCS)
+	5. Package Managers
+	6. Framework / Library
+	7. Build Tools & Module Bundler
+	8. VCS Hosting
+	9. Apps Testing
+	10. Responsive Web Design
+ 
+**4. Apa version control yang akan kalian pelajari pada course kali ini ?**
+	Version Control yang digunakan pada course kali ini adalah Git
+ 
+**5. Sebutkan package manager yang kalian ketahui ?**
+	Untuk Package Manager yang saya ketahui ialah npm dan yarn
 
 
 
