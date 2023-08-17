@@ -40,13 +40,13 @@ Pengurangan Bug: Tinjauan kode membantu mengidentifikasi dan memperbaiki bug seb
 ![Membuat Repository baru](https://github.com/yuumens/react_Ahmad-Rizky-Has/assets/98307842/2e415d1c-69b2-4165-957a-2f06cdc636fb)
 
 **2.Buatlah folder yang berurutan dan diberi nama sesuai dengan nama soal yang kalian kerjakan:**
-![Membuat Folder baru](https://ibb.co/DYYtRNr)
+![Membuat Folder baru](https://github.com/yuumens/react_Ahmad-Rizky-Has/assets/98307842/6b13f928-de2b-423e-ad46-47fd1f6cf5b2)
 
 **3. Buatlah branch baru pada github yang kalian buat**
-![Membuat Brach baru](https://ibb.co/jGt5ZJZ)
+![Membuat Brach baru](https://github.com/yuumens/react_Ahmad-Rizky-Has/assets/98307842/e406ffc0-a155-4b3d-93a2-6c0182211ed6)
 
 **4. Lakukan Pull Request pada branch tersebut sehingga akan menambah hal baru pada branch main/master**
-![Pull Request pada branch baru](https://ibb.co/zPgyMh8)
+![Pull Request pada branch baru](https://github.com/yuumens/react_Ahmad-Rizky-Has/assets/98307842/cc05b642-9124-4a6b-b591-5abb73fc677a)
 
 
 
