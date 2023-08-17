@@ -19,11 +19,13 @@
 
 
 **1. Tuliskan 3 bahasa pemrograman untuk membuat website front end**
+
 	- HTML
 	- CSS
 	- JavaScript
  
 **2. Cari dan tuliskan 5 website front end yang sering kalian gunakan, sertakan juga alamatnya**
+
 	- https://www.freecodecamp.org/
 	- https://www.codewell.cc/
 	- https://www.codecademy.com/
@@ -31,6 +33,7 @@
 	- https://www.w3schools.com/
  
 **3. Tuliskan 10 hal yang harus dipahami seorang front end developer berdasarkan roadmap.sh ?**
+
 	1. Konsep-Konsep Internet
 	2. Basic HTML
 	3. Basic CSS
@@ -44,9 +47,11 @@
 	10. Responsive Web Design
  
 **4. Apa version control yang akan kalian pelajari pada course kali ini ?**
+
 	Version Control yang digunakan pada course kali ini adalah Git
  
 **5. Sebutkan package manager yang kalian ketahui ?**
+
 	Untuk Package Manager yang saya ketahui ialah npm dan yarn
 
 
