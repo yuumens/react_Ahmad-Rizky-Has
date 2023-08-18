@@ -48,7 +48,7 @@ Pengurangan Bug: Tinjauan kode membantu mengidentifikasi dan memperbaiki bug seb
 **4. Lakukan Pull Request pada branch tersebut sehingga akan menambah hal baru pada branch main/master**
 ![Pull Request pada branch baru](https://github.com/yuumens/react_Ahmad-Rizky-Has/assets/98307842/cc05b642-9124-4a6b-b591-5abb73fc677a)
 
-
+**Thank You**
 
 
 
