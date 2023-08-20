@@ -19,6 +19,6 @@
 
 # Latihan Materi Section 3
 
-[Link Desain]((https://www.figma.com/file/ZlDkahEaAMONfFfiCjghwJ/Pilar-Kontinental-Web-Design?type=design&node-id=0%3A1&mode=design&t=AdzB671yvetkTvtE-1)https://www.figma.com/file/ZlDkahEaAMONfFfiCjghwJ/Pilar-Kontinental-Web-Design?type=design&node-id=0%3A1&mode=design&t=AdzB671yvetkTvtE-1)
+[Link Desain](https://www.figma.com/file/ZlDkahEaAMONfFfiCjghwJ/Pilar-Kontinental-Web-Design?type=design&node-id=0%3A1&mode=design&t=AdzB671yvetkTvtE-1)
 
 [Link Prototype Desain](https://www.figma.com/proto/ZlDkahEaAMONfFfiCjghwJ/Pilar-Kontinental-Web-Design?page-id=0%3A1&type=design&node-id=1-25&viewport=-359%2C327%2C0.27&t=orPAvmKYPfD63uAC-1&scaling=contain&mode=design)
