@@ -17,5 +17,8 @@
 
     Figma menyediakan penggaris (ruler) dan panduan (guides) yang membantu dalam mengatur dan mengukur elemen-elemen di kanvas. Ruler membantu Anda mengukur jarak dan dimensi antara elemen, sedangkan panduan membantu dalam perataan elemen dan pembuatan tata letak yang tepat. Menggunakan ruler dan guides dengan baik dapat membantu menciptakan desain yang lebih terstruktur dan konsisten.
 
+# Latihan Materi Section 3
 
+[Link Desain](https://www.figma.com/file/ZlDkahEaAMONfFfiCjghwJ/Pilar-Kontinental-Web-Design?type=design&node-id=0%3A1&mode=design&t=AdzB671yvetkTvtE-1)
 
+[Link Prototype Desain](https://www.figma.com/proto/ZlDkahEaAMONfFfiCjghwJ/Pilar-Kontinental-Web-Design?page-id=0%3A1&type=design&node-id=1-25&viewport=-359%2C327%2C0.27&t=orPAvmKYPfD63uAC-1&scaling=contain&mode=design)
