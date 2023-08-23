@@ -34,6 +34,7 @@ Buatlah halaman landing Page dengan nama file landingPage.html
 **Soal Eksplorasi**
 
 Lakukan validasi “required” pada setiap form yang telah dibuat
+
 ![validasi "required"](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/Required.png)
 
 
