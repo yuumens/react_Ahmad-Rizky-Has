@@ -23,5 +23,24 @@
 
 **Soal Prioritas 1** 
 
-Buatlah sebuah halaman Create Product dengan nama file createProduct.HTML
-[createProduct.HTML](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/CreateProduct.png)
+Buatlah sebuah halaman Create Product dengan nama file createProduct.html
+![createProduct.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/CreateProduct.png)
+
+**Soal Prioritas 2**
+
+Buatlah halaman landing Page dengan nama file landingPage.html
+![landingPage.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/LandingPage.png)
+
+**Soal Eksplorasi**
+
+Lakukan validasi “required” pada setiap form yang telah dibuat
+![validasi "required"](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/Required.png)
+
+
+Terapkan standart validasi berikut
+form product Product Name mempunyai minimal 6 huruf dan maksimal 50 huruf
+![Standart Validasi](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/Validasi%20Product%20Name.png)
+Product Price harus berupa angka
+![Standart Validasi](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/Validasi%20Product%20Price.png)
+
+
