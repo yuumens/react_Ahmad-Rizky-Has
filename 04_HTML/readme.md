@@ -38,7 +38,8 @@ Lakukan validasi “required” pada setiap form yang telah dibuat
 ![validasi "required"](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/Required.png)
 
 
-Terapkan standart validasi berikut
+**Terapkan standart validasi berikut**
+
 form product Product Name mempunyai minimal 6 huruf dan maksimal 50 huruf
 
 ![Standart Validasi](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/Validasi%20Product%20Name.png)
