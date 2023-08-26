@@ -43,7 +43,7 @@ Gunakan grid system dari BS ketika membuat CreateProduct.html.
 
 ![grid system createProduct.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Bootstrap/06_Bootstrap/ScreenShots/Grid%20System%20pada%20Bootstrap.png)
 
-Buatlah halaman memiliki validasi memanfaatkan BS
+Buatlah halaman memiliki validasi memanfaatkan Bootstrap
 
 ![grid system createProduct.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Bootstrap/06_Bootstrap/ScreenShots/Membuat%20Validasi%20pada%20createProduct.html.png)
 
