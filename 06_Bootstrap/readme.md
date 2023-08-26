@@ -22,30 +22,36 @@
 
 **Soal Prioritas 1** 
 
-Buatlah sebuah halaman Create Product dengan nama file createProduct.html
-![createProduct.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/CreateProduct.png)
+Gunakan komponent bootstrap seperti navbar untuk membuat navigation di LandingPage.html
+![navigation di LandingPage.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Bootstrap/06_Bootstrap/ScreenShots/Navbar%20pada%20LandingPage.png)
+
+![navigation di LandingPage.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Bootstrap/06_Bootstrap/ScreenShots/Navbar%20pada%20LandingPage%202.png)
+
+Gunakan komponent bootstrap seperti button dan form di halaman CreateProduct.html
+![navigation di LandingPage.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Bootstrap/06_Bootstrap/ScreenShots/Menggunakan%20komponen%20Button%20dan%20Form%20di%20Bootstrap.png)
+
+![navigation di LandingPage.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Bootstrap/06_Bootstrap/ScreenShots/Penggunaan%20komponen%20Button%20dan%20Form%20Bootstrap.png)
+
+Buatlah halaman CreateProduct.html
+![CreateProduct.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Bootstrap/06_Bootstrap/ScreenShots/Halaman%20createProduct.html.png)
 
 **Soal Prioritas 2**
 
-Buatlah halaman landing Page dengan nama file landingPage.html
-![landingPage.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/LandingPage.png)
+Gunakan grid system dari BS ketika membuat CreateProduct.html.
+![grid system createProduct.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Bootstrap/06_Bootstrap/ScreenShots/Grid%20System%20pada%20Bootstrap.png)
+
+Buatlah halaman memiliki validasi memanfaatkan BS
+![grid system createProduct.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Bootstrap/06_Bootstrap/ScreenShots/Membuat%20Validasi%20pada%20createProduct.html.png)
+
+![grid system createAccount.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Bootstrap/06_Bootstrap/ScreenShots/Membuat%20Validasi%20pada%20createAccount.html.png)
 
 **Soal Eksplorasi**
 
-Lakukan validasi “required” pada setiap form yang telah dibuat
+Terapkan JavaScript plugin di bootstrap seperti Modal, Carousel, atau Tooltip di halaman CreateProduct.html/LandingPage.html.
 
-![validasi "required"](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/Required.png)
-
-
-**Terapkan standart validasi berikut**
-
-form product Product Name mempunyai minimal 6 huruf dan maksimal 50 huruf
-
-![Standart Validasi](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/Validasi%20Product%20Name.png)
+![JavaScript plugin Modal](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Bootstrap/06_Bootstrap/ScreenShots/Penggunaan%20Modal%20di%20createProduct.html.png)
 
 
-Product Price harus berupa angka
+Buat alert dengan bootstrap ketika validasi input form di CreateAccount.html salah
 
-![Standart Validasi](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/Validasi%20Product%20Price.png)
-
-
+![Bootstrap Alert](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Bootstrap/06_Bootstrap/ScreenShots/Alert%20ketika%20validasi%20akun%20di%20createAccount.html%20salah.png)
