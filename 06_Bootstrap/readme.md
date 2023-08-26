@@ -28,19 +28,23 @@ Gunakan komponent bootstrap seperti navbar untuk membuat navigation di LandingPa
 ![navigation di LandingPage.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Bootstrap/06_Bootstrap/ScreenShots/Navbar%20pada%20LandingPage%202.png)
 
 Gunakan komponent bootstrap seperti button dan form di halaman CreateProduct.html
+
 ![navigation di LandingPage.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Bootstrap/06_Bootstrap/ScreenShots/Menggunakan%20komponen%20Button%20dan%20Form%20di%20Bootstrap.png)
 
 ![navigation di LandingPage.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Bootstrap/06_Bootstrap/ScreenShots/Penggunaan%20komponen%20Button%20dan%20Form%20Bootstrap.png)
 
 Buatlah halaman CreateProduct.html
+
 ![CreateProduct.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Bootstrap/06_Bootstrap/ScreenShots/Halaman%20createProduct.html.png)
 
 **Soal Prioritas 2**
 
 Gunakan grid system dari BS ketika membuat CreateProduct.html.
+
 ![grid system createProduct.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Bootstrap/06_Bootstrap/ScreenShots/Grid%20System%20pada%20Bootstrap.png)
 
 Buatlah halaman memiliki validasi memanfaatkan BS
+
 ![grid system createProduct.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Bootstrap/06_Bootstrap/ScreenShots/Membuat%20Validasi%20pada%20createProduct.html.png)
 
 ![grid system createAccount.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Bootstrap/06_Bootstrap/ScreenShots/Membuat%20Validasi%20pada%20createAccount.html.png)
