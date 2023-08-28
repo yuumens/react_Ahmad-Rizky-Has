@@ -29,30 +29,36 @@
 
 **Soal Prioritas 1** 
 
-Buatlah sebuah halaman Create Product dengan nama file createProduct.html
-![createProduct.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/CreateProduct.png)
+Dengan memanfaatkan css cobalah untuk membuat membuat halaman body dan footer di file landingPage.html 
+![landingpage.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/CSS/05_CSS/ScreenShots/Landing%20Page%20Header%20dan%20Main.png)
+
+![landingpage.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/CSS/05_CSS/ScreenShots/Landing%20Page%20Footer.png)
 
 **Soal Prioritas 2**
 
-Buatlah halaman landing Page dengan nama file landingPage.html
-![landingPage.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/LandingPage.png)
+Pada halaman LandingPage.html implementasikan efek hover pada form input atau element lain sesuai keinginan kalian.
+![landingPage.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/CSS/05_CSS/ScreenShots/Efek%20Hover%20pada%20LandingPage.jpg)
+
+Gunakan CSS pada external file dan implementasikan selection class CSS pada element HTML.
+![CSS External File](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/CSS/05_CSS/ScreenShots/CSS%20External%20File.png)
+
+Terapkan CSS Specifity untuk selector element HTML dengan id, tag, class dll. seperti #header h1 > h1.
+![CSS Specitifity](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/CSS/05_CSS/ScreenShots/CSS%20Specitifity.png)
 
 **Soal Eksplorasi**
 
-Lakukan validasi “required” pada setiap form yang telah dibuat
+Buatlah halaman menjadi responsive untuk halaman LandingPage.html dengan media query pure CSS.
 
-![validasi "required"](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/Required.png)
-
-
-**Terapkan standart validasi berikut**
-
-form product Product Name mempunyai minimal 6 huruf dan maksimal 50 huruf
-
-![Standart Validasi](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/Validasi%20Product%20Name.png)
+![Responsive landingpage.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/CSS/05_CSS/ScreenShots/CSS%20Responsive.png)
 
 
-Product Price harus berupa angka
+Terapkan efek transisi background, warna atau posisi di halaman LandingPage.html
 
-![Standart Validasi](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/Validasi%20Product%20Price.png)
+![Efek Transisi](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/CSS/05_CSS/ScreenShots/Efek%20Transisi.png)
+
+![Efek Transisi 2](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/CSS/05_CSS/ScreenShots/Efek%20Transisi%202.png)
+
+
+
 
 
