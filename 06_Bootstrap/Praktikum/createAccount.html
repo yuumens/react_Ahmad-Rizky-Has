@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account Form</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/components/stylinging.css">
+</head>
+
+<body>
+  <main class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="bootstrap-logo">
+          <img src="image 9.png" alt="">
+        </div>
+        <h1>Create Account</h1>
+        <p>Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a
+          validation state that can be triggered by attempting to submit the form without completing it. </p>
+        <form class="needs-validation" novalidate>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="fName">First Name:</label>
+              <input type="text" class="form-control" id="fName" name="fName" required>
+              <div class="invalid-feedback">
+                Please provide a valid first name.
+              </div>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="lName">Last Name:</label>
+              <input type="text" class="form-control" id="lName" name="lName" required>
+              <div class="invalid-feedback">
+                Please provide a valid last name.
+              </div>
+            </div>
+          </div>
+          <form>
+
+            <div class="form-group">
+              <label for="validationServerUsername" class="form-label">Username</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                <input type="text" class="form-control" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                  Please choose a username.
+                </div>
+              </div>
+            </div>
+            <div class="form-group ">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+              <div class="invalid-feedback">
+                Please provide a valid email.
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Gender:</label><br>
+              <div class="form-check form-check-flex">
+                <input class="form-check-input" type="radio" name="gender" id="maleRadio" required>
+                <label class="form-check-label" for="maleRadio">Male</label>
+              </div>
+              <div class="form-check form-check-inline-flex">
+                <input class="form-check-input" type="radio" name="gender" id="femaleRadio" required>
+                <label class="form-check-label" for="femaleRadio">Female</label>
+              </div>
+              <div class="form-check form-check-inline-flex">
+                <input class="form-check-input" type="radio" name="gender" id="otherRadio" required>
+                <label class="form-check-label" for="otherRadio">Other</label>
+                <div class="invalid-feedback">
+                  Please select a gender.
+                </div>
+              </div>
+
+              <div class="form-group mt-3">
+                <label for="address">Address:</label>
+                <input type="text" class="form-control" id="address" name="address" placeholder="1234 Main St" required>
+                <div class="invalid-feedback">
+                  Please provide a valid address.
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="address2">Address 2: <span>(Optional)</span></label>
+                <input type="text" class="form-control" id="address2" name="address2" placeholder="Apartement or Suite">
+              </div>
+
+              <div class="form-group">
+                <label for="nationality">Nationality:</label>
+                <select class="form-control" id="nationality" name="nationality" required>
+                  <option value="" selected disabled class="text-light"> Choose...</option>
+                  <option value="Indonesian">Indonesian</option>
+                  <option value="Malaysian">Malaysian</option>
+                  <option value="Singapore">Singapore</option>
+                  <option value="Saudi Arabian">Saudi Arabian</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a nationality.
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label>Language Spoken:</label><br>
+                <div class="form-check form-check-flex">
+                  <input class="form-check-input" type="checkbox" name="lang[]" id="bahasaCheckbox">
+                  <label class="form-check-label" for="bahasaCheckbox">Bahasa Indonesia</label>
+                </div>
+                <div class="form-check form-check-flex">
+                  <input class="form-check-input" type="checkbox" name="lang[]" id="englishCheckbox">
+                  <label class="form-check-label" for="englishCheckbox">English</label>
+                </div>
+                <div class="form-check form-check-flex">
+                  <input class="form-check-input" type="checkbox" name="lang[]" id="otherLangCheckbox">
+                  <label class="form-check-label" for="otherLangCheckbox">Other</label>
+                </div>
+                <div class="invalid-feedback" id="langInvalidFeedback">
+                  Please choose at least one language.
+                </div>
+              </div>
+
+              <div class=" m-5 d-md-flex justify-content-md-center">
+                <button type="submit" class="btn btn-primary btn-block" style="--bs-btn-padding-y: .30rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                  Submit
+                </button>
+              </div>
+          </form>
+          <div class="alert alert-danger mt-3" role="alert" id="errorAlert" style="display: none;">
+            Please correct the highlighted errors before submitting the form.
+          </div>
+      </div>
+    </div>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    (function() {
+      'use strict';
+
+      var forms = document.querySelectorAll('.needs-validation');
+
+      Array.from(forms).forEach(function(form) {
+        form.addEventListener('submit', function(event) {
+          var langCheckboxes = document.querySelectorAll('input[name="lang[]"]');
+          var isChecked = Array.from(langCheckboxes).some(function(checkbox) {
+            return checkbox.checked;
+          });
+
+          if (!form.checkValidity() || !isChecked) {
+            event.preventDefault();
+            event.stopPropagation();
+            displayErrorAlert();
+          } else {
+            hideErrorAlert();
+          }
+
+          form.classList.add('was-validated');
+        }, false);
+      });
+
+      function displayErrorAlert() {
+        var errorAlert = document.getElementById('errorAlert');
+        var langInvalidFeedback = document.getElementById('langInvalidFeedback');
+        errorAlert.style.display = 'block';
+        langInvalidFeedback.style.display = 'block';
+      }
+
+      function hideErrorAlert() {
+        var errorAlert = document.getElementById('errorAlert');
+        var langInvalidFeedback = document.getElementById('langInvalidFeedback');
+        errorAlert.style.display = 'none';
+        langInvalidFeedback.style.display = 'none';
+      }
+    })();
+  </script>
+</body>
+
+</html>
