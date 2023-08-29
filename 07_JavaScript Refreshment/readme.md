@@ -47,6 +47,8 @@ Jika Procut Name mengandung symbol @/#{} tampilkan pesan error atau peringatan m
 
 
 Validasi input setiap form bahwa field tidak boleh kosong. Jika field kosong saat form dikirim maka tampilkan pesan error “The xxx field must be filled in”
+
+
 ![createProduct.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/JavaScript-Refreshment/07_JavaScript%20Refreshment/ScreenShots/Setiap%20form%20bahwa%20field%20tidak%20boleh%20kosong.png)
 
 
@@ -60,5 +62,6 @@ Buatlah script DOM JavaScript untuk menonaktifkan tombol Submit/Create Accountji
 
 
 jika semua form telah diisi sesuai dengan falidasi dan user melakukan klik pada button Submit maka akan terdapat alert yang mengeluarkan setiap data.
+
 
 ![createAccount.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/JavaScript-Refreshment/07_JavaScript%20Refreshment/ScreenShots/Alert%20yang%20mengeluarkan%20setiap%20data%20ketika%20tombol%20Submit%20diklik.png)
