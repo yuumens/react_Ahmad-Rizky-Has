@@ -23,60 +23,38 @@
 **Soal Prioritas 1** 
 
 Product Name tidak boleh melebihi 25 karakter
-
+![createProduct.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/JavaScript-Refreshment/07_JavaScript%20Refreshment/ScreenShots/ProductName%20tidak%20boleh%20lebih%20dari%2025%20karakter.png)
 
 Jika Product Name melebihi 10 karakter tambilkan pesan error atau peringatan/alert seperi "Last Name must not exceed 25 characters."
-
+![createProduct.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/JavaScript-Refreshment/07_JavaScript%20Refreshment/ScreenShots/ProductName%20tidak%20boleh%20lebih%20dari%2025%20karakter%20Script.png)
 
 Product Name dan Product Price tidak boleh kosong. Jika field tersebut kosong saat tombol Submit/Create Product di tekan maka tampilkan alert atau error bahwa field tersebut tidak boleh kosong. Misal "Please enter a valid Prouct name.".
+![createProduct.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/JavaScript-Refreshment/07_JavaScript%20Refreshment/ScreenShots/Error%20ProductName%20not%20Valid.png)
 
+![createProduct.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/JavaScript-Refreshment/07_JavaScript%20Refreshment/ScreenShots/Error%20ProductPrice%20not%20Valid.png)
 
-Pada halaman CreateProduct.html tangkap data pada form input Product Name tambahkan dengan JS DOM dan lakukan validasi seperti berikut :
-![createProduct.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/CreateProduct.png)
 
 **Soal Prioritas 2**
 
 Pada halaman CreateProduct.html tangkap data pada form input tambahkan dengan JS DOM dan lakukan validasi seperti berikut :
 
 Procut Name tidak boleh mengandung karakter seperti @/#{}
-
+![createProduct.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/JavaScript-Refreshment/07_JavaScript%20Refreshment/ScreenShots/ProductName%20tidak%20boleh%20ada%20Spesial%20Characters%20Script.png)
 
 Jika Procut Name mengandung symbol @/#{} tampilkan pesan error atau peringatan misal "Name must not contain symbols."
-
+![createProduct.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/JavaScript-Refreshment/07_JavaScript%20Refreshment/ScreenShots/ProductName%20tidak%20boleh%20ada%20Spesial%20Characters.png)
 
 Validasi input setiap form bahwa field tidak boleh kosong. Jika field kosong saat form dikirim maka tampilkan pesan error “The xxx field must be filled in”
+![createProduct.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/JavaScript-Refreshment/07_JavaScript%20Refreshment/ScreenShots/Setiap%20form%20bahwa%20field%20tidak%20boleh%20kosong.png)
 
-
-
-Buatlah halaman landing Page dengan nama file landingPage.html
-![landingPage.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/LandingPage.png)
 
 **Soal Eksplorasi**
 
-Pada halaman CreateProduct.html tangkap data pada form yang telah dibuat kemudian tambahkan dengan JS DOM dan lakukan validasi seperti berikut :
+Pada halaman CreateAccount.html tangkap data pada form yang telah dibuat kemudian tambahkan dengan JS DOM dan lakukan validasi seperti berikut :
 
 Buatlah script DOM JavaScript untuk menonaktifkan tombol Submit/Create Accountjika salah satu input tidak valid/salah/belum di isi.
-
-
-Jika salah satu field tidak valid/salah berikan border merah atau tampilkan icon error pada field tersebut dengan JS DOM.
+![createAccount.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/JavaScript-Refreshment/07_JavaScript%20Refreshment/ScreenShots/Alert%20yang%20mengeluarkan%20setiap%20data%20ketika%20tombol%20Submit%20diklik%20Script.png)
 
 
 jika semua form telah diisi sesuai dengan falidasi dan user melakukan klik pada button Submit maka akan terdapat alert yang mengeluarkan setiap data.
-
-
-
-![validasi "required"](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/Required.png)
-
-
-**Terapkan standart validasi berikut**
-
-form product Product Name mempunyai minimal 6 huruf dan maksimal 50 huruf
-
-![Standart Validasi](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/Validasi%20Product%20Name.png)
-
-
-Product Price harus berupa angka
-
-![Standart Validasi](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/Validasi%20Product%20Price.png)
-
-
+![createAccount.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/JavaScript-Refreshment/07_JavaScript%20Refreshment/ScreenShots/Alert%20yang%20mengeluarkan%20setiap%20data%20ketika%20tombol%20Submit%20diklik.png)
