@@ -65,4 +65,5 @@ Sesudah Search
 
 ![createProduct.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Introduction-Data-Structures/08_Introduction%20Data%20Structures%20(JavaScript)/ScreenShots/Sesudah%20Search%20Data.png)
 
-[Demo Website]([https://www.example.com](https://introduction-data-structure.netlify.app/)https://introduction-data-structure.netlify.app/)
+
+[Demo Website](https://introduction-data-structure.netlify.app/)
