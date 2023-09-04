@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/components/stylings.css">
+  <title>Tugas HTML Prioritas 1</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="bootstrap-logo">
+          <img src="image 9.png" alt="">
+        </div>
+        <h1>Create Product</h1>
+        <p>Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a
+          validation state that can be triggered by attempting to submit the form without completing it. </p>
+        <div class="forms">
+          <form class="needs-validation" novalidate>
+            <div class="form-group">
+              <label for="pname">Product Name: </label>
+              <input type="text" class="form-control" id="pname" name="pname" required min="6" max="50">
+              <!-- <div class="invalid-feedback">
+                Please choose a valid product name.
+              </div> -->
+              <div id="alertDivName" class="alert alert-danger" style="display: none;"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="pCategory">Product Category: </label>
+              <select class="form-control text-dark" id="pCategory" name="pCategory" required>
+                <option class="text-light" value="" selected disabled>Choose...</option>
+                <option value="Mouse">Mouse</option>
+                <option value="Keyboard">Keyboard</option>
+                <option value="VGA">VGA</option>
+                <option value="Processor">Processor</option>
+              </select>
+              <!-- <div class="invalid-feedback">
+                Please select a product category.
+              </div> -->
+              <div id="alertDivCategory" class="alert alert-danger" style="display: none;"></div>
+            </div>
+
+            <div class="form-group mb-4">
+              <label for="pformFile" class="form-label">Image of Product</label>
+              <input class="btn btn-primary btn-sm d-flex text-light" type="file" id="pformFile" name="pformFile" required>
+              <!-- <div class="invalid-feedback">
+                Please choose an image for the product.
+              </div> -->
+              <div id="alertDivImage" class="alert alert-danger" style="display: none;"></div>
+            </div>
+
+            <div class="form-group mt-3">
+              <label for="PFeatures">Product Features: </label><br>
+              <input type="radio" name="PFeatures" required> Brand New<br>
+              <input type="radio" name="PFeatures" required> Second Hand<br>
+              <input type="radio" name="PFeatures" required> Refurbished<br>
+              <!-- <div class="invalid-feedback">
+                Please choose an Product Features
+              </div> -->
+              <div id="alertDivFeatures" class="alert alert-danger" style="display: none;"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="descriptionInput"> Additional Description:</label><br>
+              <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="priceInput">Product Price: </label><br>
+              <input type="number" id="priceInput" name="priceInput" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" placeholder="$100" class="form-control" required>
+              <!-- <div class="invalid-feedback">
+                Please enter a valid product price.
+              </div> -->
+              <div id="alertDivPrice" class="alert alert-danger" style="display: none;"></div>
+            </div>
+
+            <div class=" m-4 d-md-flex justify-content-md-center">
+              <button type="submit" class="btn btn-primary btn-block" id="submitBtn" style="--bs-btn-padding-y: .30rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                Submit
+              </button>
+            </div>
+          </form>
+          <!-- Modal -->
+          <div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="successModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="successModalLabel">Success!</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Product has been submitted successfully.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var form = document.querySelector('.needs-validation');
+      var submitButton = form.querySelector('#submitBtn');
+      var pnameInput = form.querySelector('#pname');
+      var priceInput = form.querySelector('#priceInput');
+      var alertDivName = document.getElementById('alertDivName');
+      var alertDivPrice = document.getElementById('alertDivPrice');
+      var alertDivImage = document.getElementById('alertDivImage');
+      var alertDivCategory = document.getElementById('alertDivCategory');
+      var alertDivs = form.querySelectorAll('.alert.alert-danger');
+
+      submitButton.addEventListener('click', function(event) {
+
+        if (!form.checkValidity()) {
+          event.preventDefault();
+          event.stopPropagation();
+
+          var invalidInputs = form.querySelectorAll(':invalid');
+          invalidInputs.forEach(function(input) {
+            var fieldName = input.getAttribute('name');
+            var fieldLabel = form.querySelector('label[for="' + fieldName + '"]').textContent;
+            var alertDiv = form.querySelector('#alertDiv' + fieldName.charAt(0).toUpperCase() + fieldName.slice(1));
+
+            if (input.validity.valid) {
+              if (alertDiv) {
+                alertDiv.style.display = 'none';
+              }
+            } else {
+              if (alertDiv) {
+                alertDiv.style.display = 'block';
+                alertDiv.textContent = 'The ' + fieldLabel + ' field must be filled in.';
+              } else {
+                alertDiv = document.createElement('div');
+                alertDiv.className = 'alert alert-danger';
+                alertDiv.textContent = 'The ' + fieldLabel + ' field must be filled in.';
+                alertDiv.id = 'alertDiv' + fieldName.charAt(0).toUpperCase() + fieldName.slice(1);
+
+                var fieldGroup = input.closest('.form-group');
+                fieldGroup.appendChild(alertDiv);
+
+              }
+            }
+          });
+        }
+
+        if (pnameInput.value.trim() === '') {
+          pnameInput.setCustomValidity('Please enter a valid Product name.');
+          alertDivName.style.display = 'block';
+          alertDivName.textContent = 'Please enter a valid Product name.';
+        } else if (/@|#|{|}/.test(pnameInput.value)) {
+          pnameInput.setCustomValidity('Product Name cannot contain invalid characters.');
+          alertDivName.style.display = 'block';
+          alertDivName.textContent = 'Product Name cannot contain invalid characters.';
+        } else {
+          pnameInput.setCustomValidity('');
+        }
+
+        if (priceInput.value.trim() === '') {
+          priceInput.setCustomValidity('Please enter a valid Product price.');
+          alertDivPrice.style.display = 'block';
+          alertDivPrice.textContent = 'Please enter a valid Product price.';
+        } else {
+          priceInput.setCustomValidity('');
+          alertDivPrice.style.display = 'none';
+        }
+
+        form.classList.add('was-validated');
+      });
+
+      form.addEventListener('submit', function(event) {
+        event.preventDefault();
+        event.stopPropagation();
+
+        if (form.checkValidity()) {
+          $('#successModal').modal('show');
+          // Clear error messages
+          alertDivName.style.display = 'none';
+          alertDivPrice.style.display = 'none';
+          form.classList.remove('was-validated');
+        } else {
+          form.classList.add('was-validated');
+        }
+      });
+
+      pnameInput.addEventListener('input', function() {
+        if (pnameInput.value.length > 25) {
+          pnameInput.setCustomValidity('');
+          alertDivName.style.display = 'block';
+          alertDivName.textContent = 'Product Name must not exceed 25 characters.';
+        } else {
+          pnameInput.setCustomValidity('');
+          alertDivName.style.display = 'none';
+        }
+      });
+    });
+  </script>
+
+</body>
+
+</html>
