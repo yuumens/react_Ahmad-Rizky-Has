@@ -1,0 +1,6 @@
+[[redirects]]
+from = "/*"
+to = "/createAccount.html"
+status = 200
+
+
