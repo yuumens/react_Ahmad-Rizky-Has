@@ -62,8 +62,10 @@ Terapkan clean code 100% pada setiap aspek dan menerapkan hal berikut
 
 
 2. Penanganan error: Kode harus memiliki mekanisme penanganan error yang tepat untuk menangani pengecualian dan masukan yang tidak terduga.
+   
 ![Pengananan Error](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Clean-Code/09_Clean%20Code/ScreenShots/Penagangan%20Error.png)
 
 
-3. Dokumentasi: Kode harus mencakup dokumentasi dan komentar yang relevan untuk membantu memahami tujuan dan fungsionalitas kode.
+4. Dokumentasi: Kode harus mencakup dokumentasi dan komentar yang relevan untuk membantu memahami tujuan dan fungsionalitas kode.
+   
 ![Dokumentasi](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Clean-Code/09_Clean%20Code/ScreenShots/Mudah%20Dibaca.png)
