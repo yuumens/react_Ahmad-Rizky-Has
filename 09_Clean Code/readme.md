@@ -43,10 +43,13 @@ Terapkan clean code terkait hal berikut:
 Terapkan clean code terkait hal berikut
 
 1. Simpel: Kode harus sesederhana mungkin, menghindari logika kompleks dan kode yang tidak perlu.
+   
 Sebelum
+
 ![Simpel](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Clean-Code/09_Clean%20Code/ScreenShots/Simple-1.png)
 
 Sesudah
+
 ![Simpel](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Clean-Code/09_Clean%20Code/ScreenShots/Simple-2.png)
 
 
