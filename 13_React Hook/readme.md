@@ -1,82 +1,82 @@
-# Resume Materi Section 7
+# Resume Materi Section 13
 
 3 Poin yang saya pelajari di materi ini adalah sebagai berikut: 
 
 
-**1.Konsep Dasar JavaScript:**
+**1.State dalam Komponen Fungsi:**
 
-    Pastikan Kita memahami konsep dasar JavaScript dengan baik. Ini mencakup pemahaman kita tentang variabel, tipe data, operator, percabangan (if-else statements), perulangan (loops), serta dasar-dasar fungsi. Tanpa pemahaman yang kuat tentang konsep dasar ini, lebih sulit untuk memahami konsep yang lebih kompleks di kemudian hari.
+     Salah satu konsep utama yang dipelajari dari React Hooks adalah penggunaan state dalam komponen fungsi. Sebelum adanya Hooks, state hanya dapat digunakan dalam komponen kelas. Dengan React Hooks seperti useState, Kita dapat mengelola state dalam komponen fungsi. Kita akan memahami cara menggunakan useState untuk menyimpan dan memperbarui state dalam komponen fungsi Kita, yang memungkinkan Kita untuk membuat komponen yang dinamis dan responsif.
 
-**2.Manipulasi DOM (Document Object Model):**
+**2.Efek Samping dengan 'useEffect':**
 
-    DOM adalah representasi struktur halaman web yang memungkinkan Kita mengakses dan memanipulasi elemen-elemen HTML dan CSS. Pastikan Kita memahami bagaimana bekerja dengan DOM menggunakan JavaScript. Ini termasuk pemahaman tentang selektor, mengubah isi elemen, menangani event (peristiwa), dan memanipulasi atribut elemen.
+    Hooks juga memungkinkan Kita untuk mengelola efek samping dalam komponen fungsi menggunakan useEffect. Ini berarti Kita dapat menjalankan kode yang tidak langsung terkait dengan rendering komponen, seperti pemanggilan ke API atau interaksi dengan DOM, dan mengontrol kapan kode tersebut dijalankan. Kita akan memahami cara menggunakan useEffect untuk memasukkan efek samping ke dalam komponen Kita dan bagaimana mengaturnya agar berperilaku sesuai kebutuhan.
 
-**3.Asynchronous JavaScript:**
+**3.Pemisahan Logika:**
 
-    Banyak operasi di JavaScript adalah asinkron, seperti mengambil data dari server, menangani input pengguna, atau mengatur waktu. Oleh karena itu, penting untuk memahami konsep-konsep asinkron seperti Callback, Promise, dan async/await. Pemahaman tentang bagaimana JavaScript mengelola tugas-tugas asinkron akan membantu Kita menghindari masalah umum seperti callback hell dan memungkinkan Kita untuk membuat kode yang lebih responsif.
+    Dengan menggunakan Hooks, Kita dapat memisahkan logika yang terkait dengan komponen Kita menjadi bagian yang lebih terpisah dan dapat digunakan kembali. Ini membantu dalam memisahkan logika dari tampilan (konsep yang dikenal sebagai "pemisahan kepentingan") dan membuat komponen lebih mudah diuji. Kita akan memahami cara membuat custom Hooks untuk mengelola logika yang dapat digunakan kembali dalam berbagai komponen.
 
 
-**Selain tiga poin di atas, jangan ragu untuk berlatih dengan membuat proyek-proyek kecil. Praktik langsung adalah kunci dalam memperkuat pemahaman Kita terhadap JavaScript. Kita dapat mencoba membangun halaman web sederhana, Mini Games, atau bahkan berinteraksi dengan API sederhana untuk melihat bagaimana konsep-konsep yang telah Kita pelajari diimplementasikan dalam praktiknya.**
+**Selain tiga poin di atas, React Hooks juga memungkinkan Kita untuk mengelola konteks, referensi, dan siklus hidup komponen dalam komponen fungsi. Materi tentang React Hooks adalah langkah penting dalam evolusi pengembangan React dan membuka pintu bagi Developer untuk menulis komponen yang lebih sederhana, bersih, dan mudah diuji dalam lingkungan React.**
 
-# Latihan Materi JavaScript Refreshment
+# Latihan Materi React Hook
 
 **Soal Prioritas 1** 
 
-Product Name tidak boleh melebihi 25 karakter
+-    Dengan menggunakan useEffect buatlah sebuah alert yang bertulisan “Welcome” ketika mereka membuka halaman CreateAccount.
+
+Script
+
+![useEffect Welcome](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/CreateProduct.png)
+
+Output
+
+![useEffect Welcome](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/useEffect%20Welcome.png)
 
 
-Jika Product Name melebihi 10 karakter tambilkan pesan error atau peringatan/alert seperi "Last Name must not exceed 25 characters."
+-    Dengan menggunakan UseState masukkan setiap data yang kalian isi pada halaman CreateProduct ke dalam tabel.
 
+![useState Table Data](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/useState%20ListProduct.png)
 
-Product Name dan Product Price tidak boleh kosong. Jika field tersebut kosong saat tombol Submit/Create Product di tekan maka tampilkan alert atau error bahwa field tersebut tidak boleh kosong. Misal "Please enter a valid Prouct name.".
+-    Nomor dibuat random menggunakan UUID atau sejenisnya. pastikan tidak ada duplikasi nomor.
 
+![RandomID](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/ID%20Random.png)
 
-Pada halaman CreateProduct.html tangkap data pada form input Product Name tambahkan dengan JS DOM dan lakukan validasi seperti berikut :
-![createProduct.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/CreateProduct.png)
 
 **Soal Prioritas 2**
 
-Pada halaman CreateProduct.html tangkap data pada form input tambahkan dengan JS DOM dan lakukan validasi seperti berikut :
+Buatlah tombol delete berfungsi, pastikan ketika ingin melakukan delete terdapat alert/modal/notifikasi yang bertuliskan apakah kalian ingin menghapus.
+  
+-    Jika pilih hapus maka data baru akan terhapus.
 
-Procut Name tidak boleh mengandung karakter seperti @/#{}
-
-
-Jika Procut Name mengandung symbol @/#{} tampilkan pesan error atau peringatan misal "Name must not contain symbols."
-
-
-Validasi input setiap form bahwa field tidak boleh kosong. Jika field kosong saat form dikirim maka tampilkan pesan error “The xxx field must be filled in”
+![DeleteProduct](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/Ketika%20tekan%20Yes%20di%20alert%20ingin%20hapus%20Product.png)
 
 
+-    Jika pilih tidak maka alert/modal/notifikasi akan hilang.
 
-Buatlah halaman landing Page dengan nama file landingPage.html
-![landingPage.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/LandingPage.png)
+![DeleteProduct Alert](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/Alert%20ingin%20hapus%20Product.png)
+
 
 **Soal Eksplorasi**
 
-Pada halaman CreateProduct.html tangkap data pada form yang telah dibuat kemudian tambahkan dengan JS DOM dan lakukan validasi seperti berikut :
+-    Buatlah fitur edit berfugsi, kalian bebas menggunakan hook, library atau hal lain sesuai keinginan kalian.
 
-Buatlah script DOM JavaScript untuk menonaktifkan tombol Submit/Create Accountjika salah satu input tidak valid/salah/belum di isi.
+handleEditCLick
 
-
-Jika salah satu field tidak valid/salah berikan border merah atau tampilkan icon error pada field tersebut dengan JS DOM.
-
-
-jika semua form telah diisi sesuai dengan falidasi dan user melakukan klik pada button Submit maka akan terdapat alert yang mengeluarkan setiap data.
+![EditFeatures](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/handleEditClick.png)
 
 
+handleSaveEdit
 
-![validasi "required"](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/Required.png)
-
-
-**Terapkan standart validasi berikut**
-
-form product Product Name mempunyai minimal 6 huruf dan maksimal 50 huruf
-
-![Standart Validasi](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/Validasi%20Product%20Name.png)
+![EditFeatures](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/HandleSaveEdit.png)
 
 
-Product Price harus berupa angka
+-    Flow untuk melakukan edit tidak di tentukan, yang terpenting adalah kalian dapat melakukan edit data
 
-![Standart Validasi](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/Validasi%20Product%20Price.png)
+Sebelum Edit
+
+![SebelumEdit](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/Sebelum%20Edit%20ProductName.png)
 
 
+Sesudah Edit
+
+![SesudahEdit](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/Setelah%20Edit%20ProductName.png)
