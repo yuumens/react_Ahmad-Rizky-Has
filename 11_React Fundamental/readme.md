@@ -31,6 +31,10 @@
 
 ![createProduct.jsx](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Fundamental/11_React%20Fundamental/ScreenShots/Penggunaan%20HTML%20to%20JSX.png)
 
+Tampilan Web
+
+![createProduct.jsx](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Fundamental/11_React%20Fundamental/ScreenShots/Tampilan%20createProduct%20di%20React%20JS.png)
+
 
 **Soal Prioritas 2**
 
