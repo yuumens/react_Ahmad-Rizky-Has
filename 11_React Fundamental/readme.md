@@ -1,82 +1,56 @@
-# Resume Materi Section 7
+# Resume Materi Section 11
 
 3 Poin yang saya pelajari di materi ini adalah sebagai berikut: 
 
 
-**1.Konsep Dasar JavaScript:**
+**1.Komponen dan JSX:**
 
-    Pastikan Kita memahami konsep dasar JavaScript dengan baik. Ini mencakup pemahaman kita tentang variabel, tipe data, operator, percabangan (if-else statements), perulangan (loops), serta dasar-dasar fungsi. Tanpa pemahaman yang kuat tentang konsep dasar ini, lebih sulit untuk memahami konsep yang lebih kompleks di kemudian hari.
+    React didasarkan pada pemikiran bahwa aplikasi web dapat dibangun sebagai sebuah kumpulan komponen yang lebih kecil yang saling berinteraksi. Dalam materi dasar React, Kita akan memahami cara membuat komponen menggunakan sintaks JSX (JavaScript XML) yang memungkinkan Kita untuk menentukan tampilan UI dalam kode JavaScript. Kita akan belajar bagaimana menyusun komponen bersama-sama untuk membangun aplikasi yang lebih besar.
+    
+**2.State dan Props:**
 
-**2.Manipulasi DOM (Document Object Model):**
+    React memungkinkan Kita untuk mengelola data dalam komponen menggunakan state dan props. State adalah data yang dimiliki oleh sebuah komponen dan dapat berubah selama siklus hidup komponen. Props adalah data yang diteruskan dari komponen induk ke komponen anak. Dalam materi React dasar, Kita akan memahami cara menggunakan state untuk mengelola perubahan data dalam komponen dan cara mengirim data melalui props antara komponen.
 
-    DOM adalah representasi struktur halaman web yang memungkinkan Kita mengakses dan memanipulasi elemen-elemen HTML dan CSS. Pastikan Kita memahami bagaimana bekerja dengan DOM menggunakan JavaScript. Ini termasuk pemahaman tentang selektor, mengubah isi elemen, menangani event (peristiwa), dan memanipulasi atribut elemen.
+**3.Lifecycle Komponen::**
 
-**3.Asynchronous JavaScript:**
-
-    Banyak operasi di JavaScript adalah asinkron, seperti mengambil data dari server, menangani input pengguna, atau mengatur waktu. Oleh karena itu, penting untuk memahami konsep-konsep asinkron seperti Callback, Promise, dan async/await. Pemahaman tentang bagaimana JavaScript mengelola tugas-tugas asinkron akan membantu Kita menghindari masalah umum seperti callback hell dan memungkinkan Kita untuk membuat kode yang lebih responsif.
+    Setiap komponen React melewati serangkaian siklus hidup yang berbeda, seperti pemasangan (mounting), pembaruan (updating), dan pembongkaran (unmounting). Dalam materi dasar React, Kita akan memahami urutan siklus hidup komponen dan cara menggunakan metode seperti componentDidMount, componentDidUpdate, dan componentWillUnmount untuk mengontrol perilaku komponen selama siklus hidupnya. Ini penting untuk mengelola sumber daya dan efisiensi dalam aplikasi React Kita.
 
 
-**Selain tiga poin di atas, jangan ragu untuk berlatih dengan membuat proyek-proyek kecil. Praktik langsung adalah kunci dalam memperkuat pemahaman Kita terhadap JavaScript. Kita dapat mencoba membangun halaman web sederhana, Mini Games, atau bahkan berinteraksi dengan API sederhana untuk melihat bagaimana konsep-konsep yang telah Kita pelajari diimplementasikan dalam praktiknya.**
+**Selain tiga poin di atas, materi dasar React juga akan memperkenalkan konsep-konsep lain seperti routing, manajemen formulir, interaksi dengan API, dan penggunaan alat pengembangan seperti Redux atau React Context untuk mengelola keadaan global aplikasi. Materi ini membentuk dasar yang kuat untuk memahami React secara mendalam dan membangun aplikasi web yang kuat dan responsif.**
 
-# Latihan Materi JavaScript Refreshment
+# Latihan Materi React Fundamental
 
 **Soal Prioritas 1** 
 
-Product Name tidak boleh melebihi 25 karakter
+- Ubahlah halaman `CreateProduct.html` dari project yang sudah anda buat menjadi komponen ReactJS.
+
+![createProduct.jsx](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Fundamental/11_React%20Fundamental/ScreenShots/Komponen%20createProduct.html%20di%20React%20JS.png)
 
 
-Jika Product Name melebihi 10 karakter tambilkan pesan error atau peringatan/alert seperi "Last Name must not exceed 25 characters."
+- Gunakan `JSX (JavaScript XML)` untuk mengubah HTML kedalam ReactJS
 
+![createProduct.jsx](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Fundamental/11_React%20Fundamental/ScreenShots/Penggunaan%20HTML%20to%20JSX.png)
 
-Product Name dan Product Price tidak boleh kosong. Jika field tersebut kosong saat tombol Submit/Create Product di tekan maka tampilkan alert atau error bahwa field tersebut tidak boleh kosong. Misal "Please enter a valid Prouct name.".
-
-
-Pada halaman CreateProduct.html tangkap data pada form input Product Name tambahkan dengan JS DOM dan lakukan validasi seperti berikut :
-![createProduct.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/CreateProduct.png)
 
 **Soal Prioritas 2**
 
-Pada halaman CreateProduct.html tangkap data pada form input tambahkan dengan JS DOM dan lakukan validasi seperti berikut :
+hubungkan CSS dan JS yang kalian gunakan pada halaman CreateProduct.html sehingga tampilan dapat bekerja dengan baik
 
-Procut Name tidak boleh mengandung karakter seperti @/#{}
+![createProduct.jsx](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Fundamental/11_React%20Fundamental/ScreenShots/Menghubungkan%20JS%20dan%20CSS.png)
 
-
-Jika Procut Name mengandung symbol @/#{} tampilkan pesan error atau peringatan misal "Name must not contain symbols."
-
-
-Validasi input setiap form bahwa field tidak boleh kosong. Jika field kosong saat form dikirim maka tampilkan pesan error “The xxx field must be filled in”
-
-
-
-Buatlah halaman landing Page dengan nama file landingPage.html
-![landingPage.html](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/LandingPage.png)
 
 **Soal Eksplorasi**
 
-Pada halaman CreateProduct.html tangkap data pada form yang telah dibuat kemudian tambahkan dengan JS DOM dan lakukan validasi seperti berikut :
+Buatlah komponen-komponen ReactJS yang membagi halaman CreateProduct.html menjadi lebih kecil seperti header dan footer
 
-Buatlah script DOM JavaScript untuk menonaktifkan tombol Submit/Create Accountjika salah satu input tidak valid/salah/belum di isi.
+Header Component
 
+![navbar.jsx](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Fundamental/11_React%20Fundamental/ScreenShots/Navbar%20Component.png)
 
-Jika salah satu field tidak valid/salah berikan border merah atau tampilkan icon error pada field tersebut dengan JS DOM.
+Home Component
 
+![home.jsx](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Fundamental/11_React%20Fundamental/ScreenShots/Komponen%20createProduct.html%20di%20React%20JS.png)
 
-jika semua form telah diisi sesuai dengan falidasi dan user melakukan klik pada button Submit maka akan terdapat alert yang mengeluarkan setiap data.
+App.js
 
-
-
-![validasi "required"](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/Required.png)
-
-
-**Terapkan standart validasi berikut**
-
-form product Product Name mempunyai minimal 6 huruf dan maksimal 50 huruf
-
-![Standart Validasi](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/Validasi%20Product%20Name.png)
-
-
-Product Price harus berupa angka
-
-![Standart Validasi](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/Validasi%20Product%20Price.png)
-
-
+![App.js](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Fundamental/11_React%20Fundamental/ScreenShots/App.js.png)https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Fundamental/11_React%20Fundamental/ScreenShots/App.js.png
