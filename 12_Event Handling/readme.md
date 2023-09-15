@@ -58,6 +58,7 @@ buatlah sebuah file yang berisikan object berikut
 
 Gunakan event handling onChange untuk validasi value secara realtime yang dimasukan kedalam form input. Validasi ini meliputi :
 -    Product Name tidak boleh melebihi 10 karakter
+  
   ![ProductName more than 25 Characters](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Event-Handling/12_Event%20Handling/ScreenShots/ProductName%20tidak%20Boleh%20lebih%20dari%2025%20karakter.png)
 
 -    Jika Product Name melebihi 25 karakter tambilkan pesan error atau peringatan/alert seperi "Last Name must not exceed 25 characters."
@@ -70,36 +71,19 @@ Product Name tidak boleh kosong. Jika field tersebut kosong saat tombol Submit/C
 ![Alert ProductName null](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Event-Handling/12_Event%20Handling/ScreenShots/Alert%20Jika%20ProductName%20Kosong.png)
 
 
-
-Buatlah halaman landing Page dengan nama file landingPage.html
-
-
 **Soal Eksplorasi**
 
-Pada halaman CreateProduct.html tangkap data pada form yang telah dibuat kemudian tambahkan dengan JS DOM dan lakukan validasi seperti berikut :
+- Pada halaman CreateProduct.jsx lakukan validasi seperti berikut
+Jika salah satu field tidak valid/salah berikan border merah atau tampilkan icon error pada field tersebut dengan React Event Handling. (product freshness tidak harus memiliki validasi)
 
-Buatlah script DOM JavaScript untuk menonaktifkan tombol Submit/Create Accountjika salah satu input tidak valid/salah/belum di isi.
+![Form Validation](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Event-Handling/12_Event%20Handling/ScreenShots/Validasi%20ProductCategory%20dan%20ProductPrice.png)
 
+- Buatlah button untuk mengganti text pada halaman.
+Buatlah sebuah button yang berfungsi mengganti bahasa yang digunakan pada halaman CreateProduct.jsx . Jika tombol itu di klik maka title dan deskripsi text pada halaman CreateProduct.jsx akan berubah menjadi text indonesia.
 
-Jika salah satu field tidak valid/salah berikan border merah atau tampilkan icon error pada field tersebut dengan JS DOM.
-
-
-jika semua form telah diisi sesuai dengan falidasi dan user melakukan klik pada button Submit maka akan terdapat alert yang mengeluarkan setiap data.
-
-
-
-![validasi "required"](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/Required.png)
+![ID Title](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Event-Handling/12_Event%20Handling/ScreenShots/Tombol%20GantiBahasa%20dari%20Inggris%20ke%20Indonesia.png)
 
 
-**Terapkan standart validasi berikut**
+ketika kita menggunakan text indonesia dan melakukan klik pada button tersebut akan berganti menjadi text inggris.
 
-form product Product Name mempunyai minimal 6 huruf dan maksimal 50 huruf
-
-![Standart Validasi](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/Validasi%20Product%20Name.png)
-
-
-Product Price harus berupa angka
-
-![Standart Validasi](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/Validasi%20Product%20Price.png)
-
-
+![EN Title](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Event-Handling/12_Event%20Handling/ScreenShots/Tombol%20GantiBahasa%20dari%20Indonesia%20ke%20Inggris.png)
