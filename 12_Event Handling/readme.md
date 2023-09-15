@@ -79,6 +79,7 @@ Jika salah satu field tidak valid/salah berikan border merah atau tampilkan icon
 ![Form Validation](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Event-Handling/12_Event%20Handling/ScreenShots/Validasi%20ProductCategory%20dan%20ProductPrice.png)
 
 - Buatlah button untuk mengganti text pada halaman.
+
 Buatlah sebuah button yang berfungsi mengganti bahasa yang digunakan pada halaman CreateProduct.jsx . Jika tombol itu di klik maka title dan deskripsi text pada halaman CreateProduct.jsx akan berubah menjadi text indonesia.
 
 ![ID Title](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Event-Handling/12_Event%20Handling/ScreenShots/Tombol%20GantiBahasa%20dari%20Inggris%20ke%20Indonesia.png)
