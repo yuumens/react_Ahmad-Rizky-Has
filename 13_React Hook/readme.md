@@ -26,7 +26,7 @@
 
 Script
 
-![useEffect Welcome](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/HTML/04_HTML/ScreenShots/CreateProduct.png)
+![useEffect Welcome](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/useEffect%20Welcome_1.png)
 
 Output
 
