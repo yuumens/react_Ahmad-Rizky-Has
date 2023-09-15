@@ -206,7 +206,7 @@ body {
   height: 44px;
   padding-left: 45px;
   padding-right: 30px;
-  color: var(--dark-3);
+  color: black;
   font-size: 16px;
   border: 0;
   border-bottom: 1px solid var(--gray-4);
@@ -263,7 +263,7 @@ body {
 }
 .form-input .input-items.default input,
 .form-input .input-items.default textarea {
-  color: var(--dark-3);
+  color: var(--dark-1);
   background-color: rgb(245, 213, 155);
   border-radius: 6px;
 }
@@ -281,7 +281,7 @@ body {
 }
 .form-input .input-items.active input,
 .form-input .input-items.active textarea {
-  border-color: var(--primary-dark);
+  border-color: black;
   color: var(--black);
 }
 .form-input .input-items.active input::placeholder,
@@ -320,17 +320,17 @@ body {
 }
 .form-input .input-items.disabled input,
 .form-input .input-items.disabled textarea {
-  border-color: var(--dark-2);
-  color: var(--dark-3);
+  border-color: var(--dark-1);
+  color: var(--dark-1);
   background: none;
 }
 .form-input .input-items.disabled input::placeholder,
 .form-input .input-items.disabled textarea::placeholder {
-  color: var(--dark-3);
+  color: var(--dark-1);
   opacity: 1;
 }
 .form-input .input-items.disabled i {
-  color: var(--dark-3);
+  color: var(--dark-1);
 }
 
 .form-style-four .form-input label {
