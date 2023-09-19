@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account Form</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.27/dist/sweetalert2.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="/components/stylinging.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a href="#">Simple Header</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto nav-pills">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="createAccount.html">Create Account</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary fw-light" href="createProduct.html">Create Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary fw-light" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary fw-light" href="#">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-primary fw-light" href="#">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="bootstrap-logo">
+          <img src="/images/image9.png" alt="">
+        </div>
+        <h1>Create Account</h1>
+        <p>Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a
+          validation state that can be triggered by attempting to submit the form without completing it. </p>
+        <form class="needs-validation" novalidate>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="FirstName">First Name:</label>
+              <input type="text" class="form-control" id="FirstName" name="FirstName" required>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="LastName">Last Name:</label>
+              <input type="text" class="form-control" id="LastName" name="LastName" required>
+            </div>
+          </div>
+          <form>
+
+            <div class="form-group">
+              <label for="Username" class="form-label">Username</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                <input type="text" class="form-control" id="Username" aria-describedby="inputGroupPrepend3 UsernameFeedback" required>
+                <div id="UsernameFeedback" class="invalid-feedback">
+                  Please choose a username.
+                </div>
+              </div>
+            </div>
+            <div class="form-group ">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+              <label for="gender">Gender:</label><br>
+              <div class="form-check form-check-flex">
+                <input class="form-check-input" type="radio" name="gender" id="maleRadio" required>
+                <label class="form-check-label" for="maleRadio">Male</label>
+              </div>
+              <div class="form-check form-check-inline-flex">
+                <input class="form-check-input" type="radio" name="gender" id="femaleRadio" required>
+                <label class="form-check-label" for="femaleRadio">Female</label>
+              </div>
+              <div class="form-check form-check-inline-flex">
+                <input class="form-check-input" type="radio" name="gender" id="otherRadio" required>
+                <label class="form-check-label" for="otherRadio">Other</label>
+              </div>
+
+              <div class="form-group mt-3">
+                <label for="address">Address:</label>
+                <input type="text" class="form-control" id="address" name="address" placeholder="1234 Main St" required>
+              </div>
+
+              <div class="form-group">
+                <label for="address2">Address 2: <span>(Optional)</span></label>
+                <input type="text" class="form-control" id="address2" name="address2" placeholder="Apartement or Suite">
+              </div>
+
+              <div class="form-group">
+                <label for="nationality">Nationality:</label>
+                <select class="form-control" id="nationality" name="nationality" required>
+                  <option value="" selected disabled class="text-light"> Choose...</option>
+                  <option value="Indonesian">Indonesian</option>
+                  <option value="Malaysian">Malaysian</option>
+                  <option value="Singapore">Singapore</option>
+                  <option value="Saudi Arabian">Saudi Arabian</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label>Language Spoken:</label><br>
+                <div class="form-check form-check-flex">
+                  <input class="form-check-input" type="checkbox" name="lang[]" id="bahasaCheckbox">
+                  <label class="form-check-label" for="bahasaCheckbox">Bahasa Indonesia</label>
+                </div>
+                <div class="form-check form-check-flex">
+                  <input class="form-check-input" type="checkbox" name="lang[]" id="englishCheckbox">
+                  <label class="form-check-label" for="englishCheckbox">English</label>
+                </div>
+                <div class="form-check form-check-flex">
+                  <input class="form-check-input" type="checkbox" name="lang[]" id="otherLangCheckbox">
+                  <label class="form-check-label" for="otherLangCheckbox">Other</label>
+                </div>
+              </div>
+
+              <div class=" m-5 d-md-flex justify-content-md-center">
+                <button type="submit" class="btn btn-primary btn-block" id="submitButton" style="--bs-btn-padding-y: .30rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;" disabled>
+                  Submit
+                </button>
+              </div>
+          </form>
+      </div>
+      <br>
+      <h2 class="text-center">List Account</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Username</th>
+            <th scope="col">Email</th>
+            <th scope="col">Gender</th>
+            <th scope="col">Address</th>
+            <th scope="col">Address 2</th>
+            <th scope="col">Nationality</th>
+            <th scope="col">Languages</th>
+          </tr>
+        </thead>
+        <tbody id="dataTableBody">
+        </tbody>
+      </table>
+      <div class="form-group">
+        <div class="mb-2 d-md-flex row-cols-3">
+          <input type="text" class="form-control" id="searchInput" placeholder="Search by Username">
+        </div>
+        <button type="button" class="btn btn-danger" id="deleteBtn">Delete</button>
+        <button type="button" class="btn btn-primary" id="searchBtn">Search</button>
+      </div>
+    </div>
+  </main>
+  <script>
+    (function() {
+      'use strict';
+
+      const form = document.querySelector('.needs-validation');
+      const submitButton = document.getElementById('submitButton');
+      const langCheckboxes = document.querySelectorAll('input[name="lang[]"]');
+      const genderRadios = document.querySelectorAll('input[name="gender"]');
+
+      //Memvalidasi Tiap Input pada Form
+      form.addEventListener('input', function() {
+        const isLangChecked = Array.from(langCheckboxes).some(function(checkbox) {
+          return checkbox.checked;
+        });
+
+        if (form.checkValidity() && isLangChecked && isGenderChecked()) {
+          submitButton.removeAttribute('disabled');
+        } else {
+          submitButton.setAttribute('disabled', 'disabled');
+        }
+      });
+
+      form.addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        if (form.checkValidity() && isLangChecked() && isGenderChecked()) {
+          displayFormData();
+        }
+      });
+
+      function isLangChecked() {
+        return Array.from(langCheckboxes).some(function(checkbox) {
+          return checkbox.checked;
+        });
+      }
+
+      function isGenderChecked() {
+        return Array.from(genderRadios).some(function(radio) {
+          return radio.checked;
+        });
+      }
+
+      //Menampilkan Form Data
+      function displayFormData() {
+        const firstName = document.getElementById('FirstName').value;
+        const lastName = document.getElementById('LastName').value;
+        const username = document.getElementById('Username').value;
+        const email = document.getElementById('email').value;
+        const selectedGender = document.querySelector('input[name="gender"]:checked').nextElementSibling.textContent;
+        const address = document.getElementById('address').value;
+        const address2 = document.getElementById('address2').value;
+        const nationality = document.getElementById('nationality').value;
+
+        const selectedLanguages = [];
+        langCheckboxes.forEach(function(checkbox) {
+          if (checkbox.checked) {
+            selectedLanguages.push(checkbox.nextElementSibling.textContent);
+          }
+        });
+        const languages = selectedLanguages.join(', ');
+
+        // Dapatkan referensi ke tabel
+        const dataTableBody = document.getElementById('dataTableBody');
+
+        // Buat baris baru dalam tabel
+        const newRow = dataTableBody.insertRow();
+
+        // Buat sel-sel dalam baris
+        const cell1 = newRow.insertCell(0);
+        const cell2 = newRow.insertCell(1);
+        const cell3 = newRow.insertCell(2);
+        const cell4 = newRow.insertCell(3);
+        const cell5 = newRow.insertCell(4);
+        const cell6 = newRow.insertCell(5);
+        const cell7 = newRow.insertCell(6);
+        const cell8 = newRow.insertCell(7);
+        const cell9 = newRow.insertCell(8);
+
+        // Isi sel-sel dengan data yang diperoleh dari formulir
+        cell1.textContent = firstName;
+        cell2.textContent = lastName;
+        cell3.textContent = username;
+        cell4.textContent = email;
+        cell5.textContent = selectedGender;
+        cell6.textContent = address;
+        cell7.textContent = address2;
+        cell8.textContent = nationality;
+        cell9.textContent = languages;
+      }
+
+
+      // Buat tombol delete dan tambahkan class "delete-btn"
+      const deleteButton = document.getElementById('deleteBtn');
+      deleteButton.addEventListener('click', function() {
+        const table = document.getElementById('dataTableBody');
+        const rowCount = table.rows.length;
+
+        if (rowCount > 0) {
+          table.deleteRow(rowCount - 1);
+        }
+      });
+
+      const searchButton = document.getElementById('searchBtn');
+      const searchInput = document.getElementById('searchInput');
+
+      //Mencari Data Berdasarkan Username
+      searchButton.addEventListener('click', function() {
+        const searchTerm = searchInput.value.toLowerCase().trim();
+        const table = document.getElementById('dataTableBody');
+        const rows = table.getElementsByTagName('tr');
+
+        for (const i = 0; i < rows.length; i++) {
+          const usernameCell = rows[i].getElementsByTagName('td')[2];
+          if (usernameCell) {
+            const username = usernameCell.textContent.toLowerCase();
+            if (username.includes(searchTerm)) {
+              rows[i].style.display = '';
+            } else {
+              rows[i].style.display = 'none';
+            }
+          }
+        }
+      });
+
+    })();
+  </script>
+</body>
+
+</html>
