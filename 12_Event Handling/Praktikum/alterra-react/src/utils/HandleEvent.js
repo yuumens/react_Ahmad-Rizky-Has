@@ -1,14 +1,3 @@
-// export function handleInputChange(event,productName,setProductName) {
-//   const { name, value } = event.target;
-//   if (name === "pname") {
-//     setProductName(value);
-//     setIsProductNameValid(isProductNameValid(true));
-//   } else if (name === "pCategory") {
-//     setProductCategory(value);
-//     setIsProductCategoryValid(isProductCategoryValid(true));
-//   }
-// }
-
 export function isProductNameValid(productName) {
   return !!productName;
 }
@@ -130,11 +119,6 @@ export function handleSubmit(
     return;
   }
 
-  // if (productName.length > 25) {
-  //   alert("Product Name must not exceed 25 characters.");
-  //   return;
-  // }
-
   if (productName && productCategory && productImage && productPrice) {
     const product = {
       productName,
@@ -161,36 +145,3 @@ export function handleSubmit(
     setIsProductPriceValid(false);
   }
 }
-
-// const handleSubmit = (event) => {
-//   event.preventDefault();
-//   if (
-//     productName &&
-//     productCategory &&
-//     productImage &&
-//     productFeatures &&
-//     productPrice
-//   ) {
-//     const product = {
-//       productName,
-//       productCategory,
-//       productImage,
-//       additionalDescription,
-//       productFeatures,
-//       productPrice,
-//     };
-
-//     setProducts([...products, product]);
-
-//     // Clear form fields
-//     setProductName("");
-//     setProductCategory("");
-//     setProductImage("");
-//     setAdditionalDescription("");
-//     setProductFeatures("");
-//     setProductPrice("");
-//     setIsProductNameValid(true); // Setelah submit, validasi Product Name direset
-//   } else {
-//     setIsProductNameValid(false); // Jika Product Name kosong, tampilkan pesan kesalahan
-//   }
-// };
