@@ -1,82 +1,62 @@
-# Resume Materi Section 13
+# Resume Materi Section 14
 
 3 Poin yang saya pelajari di materi ini adalah sebagai berikut: 
 
 
-**1.State dalam Komponen Fungsi:**
+**1.Navigasi Halaman:**
 
-     Salah satu konsep utama yang dipelajari dari React Hooks adalah penggunaan state dalam komponen fungsi. Sebelum adanya Hooks, state hanya dapat digunakan dalam komponen kelas. Dengan React Hooks seperti useState, Kita dapat mengelola state dalam komponen fungsi. Kita akan memahami cara menggunakan useState untuk menyimpan dan memperbarui state dalam komponen fungsi Kita, yang memungkinkan Kita untuk membuat komponen yang dinamis dan responsif.
+    React Routing memungkinkan Kita untuk membuat navigasi antar halaman dalam aplikasi web React tanpa perlu memuat ulang halaman utuh setiap kali pengguna berpindah ke halaman yang berbeda. Ini meningkatkan pengalaman pengguna dan kinerja aplikasi.
 
-**2.Efek Samping dengan 'useEffect':**
+**2.URL Routing:**
 
-    Hooks juga memungkinkan Kita untuk mengelola efek samping dalam komponen fungsi menggunakan useEffect. Ini berarti Kita dapat menjalankan kode yang tidak langsung terkait dengan rendering komponen, seperti pemanggilan ke API atau interaksi dengan DOM, dan mengontrol kapan kode tersebut dijalankan. Kita akan memahami cara menggunakan useEffect untuk memasukkan efek samping ke dalam komponen Kita dan bagaimana mengaturnya agar berperilaku sesuai kebutuhan.
+    Dalam React Routing, Kita dapat mendefinisikan berbagai rute (routes) yang sesuai dengan berbagai URL. Setiap rute dapat dihubungkan dengan komponen React tertentu. Ini memungkinkan Anda untuk menentukan bagaimana tampilan berubah berdasarkan URL yang diakses pengguna.
 
-**3.Pemisahan Logika:**
+**3.Rute Dinamis dan Parameter:**
 
-    Dengan menggunakan Hooks, Kita dapat memisahkan logika yang terkait dengan komponen Kita menjadi bagian yang lebih terpisah dan dapat digunakan kembali. Ini membantu dalam memisahkan logika dari tampilan (konsep yang dikenal sebagai "pemisahan kepentingan") dan membuat komponen lebih mudah diuji. Kita akan memahami cara membuat custom Hooks untuk mengelola logika yang dapat digunakan kembali dalam berbagai komponen.
+    React Routing juga memungkinkan Kita untuk membuat rute yang dinamis dengan parameter. Kita dapat menangkap nilai-nilai dari URL sebagai parameter dan menggunakan nilai-nilai ini dalam komponen React yang sesuai. Misalnya, Kita dapat membuat halaman profil pengguna dengan URL seperti /user/123 di mana 123 adalah parameter yang dapat digunakan untuk menampilkan profil pengguna yang sesuai.
 
 
-**Selain tiga poin di atas, React Hooks juga memungkinkan Kita untuk mengelola konteks, referensi, dan siklus hidup komponen dalam komponen fungsi. Materi tentang React Hooks adalah langkah penting dalam evolusi pengembangan React dan membuka pintu bagi Developer untuk menulis komponen yang lebih sederhana, bersih, dan mudah diuji dalam lingkungan React.**
+**Selain tiga poin di atas, , React Routing juga memungkinkan Kita untuk mengelola berbagai aspek navigasi seperti tautan, perutean bersarang (nested routing), tampilan 404 (halaman tidak ditemukan), otentikasi, dan banyak lagi. Pemahaman yang kuat tentang React Routing akan membantu Kita membangun aplikasi web React yang lebih dinamis dan user-friendly.**
 
-# Latihan Materi React Hook
+# Latihan Materi React Routing
 
 **Soal Prioritas 1** 
 
--    Dengan menggunakan useEffect buatlah sebuah alert yang bertulisan “Welcome” ketika mereka membuka halaman CreateAccount.
+-    Buatlah halaman LandingPage berdasarkan LandingPage.html yang telah kalian buat pada tugas sebelumnya
 
-Script
-
-![useEffect Welcome](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/useEffect%20Welcome_1.png)
-
-Output
-
-![useEffect Welcome](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/useEffect%20Welcome.png)
+![LandingPage.jsx](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Routing/14_React%20Routing/ScreenShots/LandingPage.jsx.png)
 
 
--    Dengan menggunakan UseState masukkan setiap data yang kalian isi pada halaman CreateProduct ke dalam tabel.
+-    Tambahkan tombol pada komponen LandingPage.jsx untuk menavigasi ke komponen CreateProduct.jsx dan Gunakan React Routing untuk navigasi antara component LandingPage.jsx dan CreateProduct.jsx
 
-![useState Table Data](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/useState%20ListProduct.png)
+![Navigasi Komponen LandingPage.jsx](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Routing/14_React%20Routing/ScreenShots/CreateProduckClick.png)
 
--    Nomor dibuat random menggunakan UUID atau sejenisnya. pastikan tidak ada duplikasi nomor.
+![Navigasi Komponen LandingPage.jsx](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Routing/14_React%20Routing/ScreenShots/CreateProduckClick-2.png)
 
-![RandomID](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/ID%20Random.png)
 
 
 **Soal Prioritas 2**
-
-Buatlah tombol delete berfungsi, pastikan ketika ingin melakukan delete terdapat alert/modal/notifikasi yang bertuliskan apakah kalian ingin menghapus.
   
--    Jika pilih hapus maka data baru akan terhapus.
+-    Dengan memanfaatkan react routing buatlah fitur ketika user melakukan klik salah satu data pada tabel maka akan masuk ke halaman lain dan memunculkan data tersebut secara lengkap.
 
-![DeleteProduct](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/Ketika%20tekan%20Yes%20di%20alert%20ingin%20hapus%20Product.png)
+Detail Button
+
+![DetailProduct](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Routing/14_React%20Routing/ScreenShots/Details.png)
 
 
--    Jika pilih tidak maka alert/modal/notifikasi akan hilang.
+Komponen Detail Product
 
-![DeleteProduct Alert](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/Alert%20ingin%20hapus%20Product.png)
+![DetailProduct](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Routing/14_React%20Routing/ScreenShots/ProductDetails.png)
+
 
 
 **Soal Eksplorasi**
 
--    Buatlah fitur edit berfugsi, kalian bebas menggunakan hook, library atau hal lain sesuai keinginan kalian.
+-    Buatlah sebuah fitur private routing, sehingga hanya user yang sudah login yang bisa mengakses halaman-halaman tertentu.
 
-handleEditCLick
-
-![EditFeatures](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/handleEditClick.png)
+![PrivateRoute](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Routing/14_React%20Routing/ScreenShots/PrivateRoutes.png)
 
 
-handleSaveEdit
+-    App.js
 
-![EditFeatures](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/HandleSaveEdit.png)
-
-
--    Flow untuk melakukan edit tidak di tentukan, yang terpenting adalah kalian dapat melakukan edit data
-
-Sebelum Edit
-
-![SebelumEdit](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/Sebelum%20Edit%20ProductName.png)
-
-
-Sesudah Edit
-
-![SesudahEdit](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/Setelah%20Edit%20ProductName.png)
+![App.js](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Routing/14_React%20Routing/ScreenShots/App.js.png)
