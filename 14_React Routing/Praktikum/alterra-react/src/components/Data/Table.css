@@ -1,0 +1,8 @@
+.custom-btn {
+  background-color: rgb(248, 200, 95);
+  color: black;
+}
+
+.custom-btn:hover {
+  background-color: rgb(248, 192, 70);
+}
