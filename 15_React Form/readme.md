@@ -77,7 +77,11 @@ Tampilkan pesan error jika salah satu dari kedua field tidak valid.
 
 -    Buatlah form register dan login menjadi sebuah halaman. Kemudian, buat sebuah routing sehingga user dapat berpindah-pindah halaman. Kalian bebas bereksperimen terkait flow, tata leta, dan user interface pada kedua halaman ini.
 
+Register Page
+
 ![RegisterPage](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Form/15_React%20Form/ScreenShots/RegisterPage.png)
 
+
+Login Page
 
 ![LoginPage](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Form/15_React%20Form/ScreenShots/LoginPage.png)
