@@ -23,16 +23,39 @@
 
 -    Pada data dari form input komponen CreateProduct.jsx yang sebelumnya disimpan kedalam state dan LocalStorage. Sekarang simpan data tersebuh ke Rest API yang sudah kalian buat dengan MockAPI menggunakan librrary axios      dan dengan http method POST dan tampilkan pesan sukses jika berhasil menyimpan data.
 
-![POST Method](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/useEffect%20Welcome_1.png)
+![POST Method](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Restfull-API-JavaScript/20_Restfull%20API%20with%20JavaScript/ScreenShots/POST%20Method.png)
+
+
+![ListProduct](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Restfull-API-JavaScript/20_Restfull%20API%20with%20JavaScript/ScreenShots/ListProduct.png)
+
+
+![POST Method Success](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Restfull-API-JavaScript/20_Restfull%20API%20with%20JavaScript/ScreenShots/POST%20Method%20Success.png)
 
 
 
 -    Buatlah fitur update data user dihalaman ListProduct.jsx dan update data product dari RestAPI yang sudah kalian buat dengan MockAPI. Update data product dengan mengirim request ke Rest API tersebut menggunakan             library axios dengan http method PUT dan tampilkan pesan sukses diupdate jika berhasil mengupdate data.
 
-![useEffect Welcome](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/useEffect%20Welcome.png)
+![PUT Method](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Restfull-API-JavaScript/20_Restfull%20API%20with%20JavaScript/ScreenShots/PUT%20Method.png)
 
+
+![ListProduct Sebelum Edit](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Restfull-API-JavaScript/20_Restfull%20API%20with%20JavaScript/ScreenShots/ListProduct%20Sebelum%20di%20Edit.png)
+
+
+![ListProduct Sesudah Edit](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Restfull-API-JavaScript/20_Restfull%20API%20with%20JavaScript/ScreenShots/ListProduk%20Setelah%20Di%20Edit.png)
+
+
+![PUT Method Success](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Restfull-API-JavaScript/20_Restfull%20API%20with%20JavaScript/ScreenShots/PUT%20Method%20Success.png)
 
 
 -    Buatlah fitur delete data product dihalaman ListProduct.jsx. Lakukan request ke server Rest API dengan axios ke endpoint untuk delete data dengan http method DELETE dan berikan pesan sukses delete jika berhasil            menghapus data dari server Rest API.
 
-![useState Table Data](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/useState%20ListProduct.png)
+![DELETE Method](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Restfull-API-JavaScript/20_Restfull%20API%20with%20JavaScript/ScreenShots/DELETE%20Method.png)
+
+
+![ListProduct Sebelum Delete](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Restfull-API-JavaScript/20_Restfull%20API%20with%20JavaScript/ScreenShots/ListProduct%20Sebelum%20di%20Delete.png)
+
+
+![ListProduct Sesudah Delete](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Restfull-API-JavaScript/20_Restfull%20API%20with%20JavaScript/ScreenShots/ListProduk%20Setelah%20Di%20Delete.png)
+
+
+![DELETE Method Success](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Restfull-API-JavaScript/20_Restfull%20API%20with%20JavaScript/ScreenShots/DELETE%20Method%20Success.png)
