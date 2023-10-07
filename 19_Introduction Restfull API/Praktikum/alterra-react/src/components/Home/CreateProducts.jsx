@@ -30,10 +30,10 @@ const CreateProducts = () => {
     const response = await axios.post('https://65209e90906e276284c494cd.mockapi.io/product', data);
 
     if (response.status === 201) {
-      console.log('Data produk berhasil disimpan di MockAPI:', response.data);
+      alert('Data produk berhasil disimpan');
     }
   } catch (error) {
-    console.error('Gagal menyimpan data produk di MockAPI:', error);
+    alert('Gagal menyimpan data produk');
   }
 };
 
