@@ -1,82 +1,38 @@
-# Resume Materi Section 13
+# Resume Materi Section 20
 
 3 Poin yang saya pelajari di materi ini adalah sebagai berikut: 
 
 
-**1.State dalam Komponen Fungsi:**
+**1.Prinsip Dasar REST:**
 
-     Salah satu konsep utama yang dipelajari dari React Hooks adalah penggunaan state dalam komponen fungsi. Sebelum adanya Hooks, state hanya dapat digunakan dalam komponen kelas. Dengan React Hooks seperti useState, Kita dapat mengelola state dalam komponen fungsi. Kita akan memahami cara menggunakan useState untuk menyimpan dan memperbarui state dalam komponen fungsi Kita, yang memungkinkan Kita untuk membuat komponen yang dinamis dan responsif.
+     REST adalah pendekatan arsitektural yang digunakan dalam pengembangan web untuk merancang sistem yang berbasis sumber daya yang dapat diakses melalui antarmuka berbasis HTTP. Kita akan mempelajari prinsip-prinsip dasar REST, seperti konsep sumber daya (resources), representasi data, metode HTTP (GET, POST, PUT, DELETE), antarmuka (API), dan status sistem (stateless).
 
-**2.Efek Samping dengan 'useEffect':**
+**2.Endpoint dan Routing:**
 
-    Hooks juga memungkinkan Kita untuk mengelola efek samping dalam komponen fungsi menggunakan useEffect. Ini berarti Kita dapat menjalankan kode yang tidak langsung terkait dengan rendering komponen, seperti pemanggilan ke API atau interaksi dengan DOM, dan mengontrol kapan kode tersebut dijalankan. Kita akan memahami cara menggunakan useEffect untuk memasukkan efek samping ke dalam komponen Kita dan bagaimana mengaturnya agar berperilaku sesuai kebutuhan.
+    RESTful API menggunakan endpoint (URL) untuk mengakses sumber daya tertentu. Anda akan memahami bagaimana cara merancang dan mengorganisasi endpoint sesuai dengan sumber daya yang tersedia. Kita akan di jelaskan bagaimana melakukan routing atau penugasan permintaan HTTP ke endpoint yang benar dalam kerangka kerja atau aplikasi Kita.
 
-**3.Pemisahan Logika:**
+**3.Operasi CRUD (Create, Read, Update, Delete)**
 
-    Dengan menggunakan Hooks, Kita dapat memisahkan logika yang terkait dengan komponen Kita menjadi bagian yang lebih terpisah dan dapat digunakan kembali. Ini membantu dalam memisahkan logika dari tampilan (konsep yang dikenal sebagai "pemisahan kepentingan") dan membuat komponen lebih mudah diuji. Kita akan memahami cara membuat custom Hooks untuk mengelola logika yang dapat digunakan kembali dalam berbagai komponen.
+    RESTful API umumnya digunakan untuk melakukan operasi CRUD pada data, yaitu membuat (Create), membaca (Read), memperbarui (Update), dan menghapus (Delete) data. Kita akan memahami bagaimana cara mengimplementasikan operasi-operasi ini dalam RESTful API, seperti menggunakan metode HTTP POST untuk membuat data baru, metode GET untuk membaca data, metode PUT untuk memperbarui data, dan metode DELETE untuk menghapus data.
 
 
-**Selain tiga poin di atas, React Hooks juga memungkinkan Kita untuk mengelola konteks, referensi, dan siklus hidup komponen dalam komponen fungsi. Materi tentang React Hooks adalah langkah penting dalam evolusi pengembangan React dan membuka pintu bagi Developer untuk menulis komponen yang lebih sederhana, bersih, dan mudah diuji dalam lingkungan React.**
+**Selain tiga poin di atas, RESTful API juga dapat mencakup topik-topik seperti autentikasi, otorisasi, manajemen versi API, dokumentasi API, dan praktik terbaik dalam merancang API yang kuat dan mudah digunakan. Pemahaman yang baik tentang RESTful API penting dalam pengembangan aplikasi modern yang berkomunikasi dengan sumber daya eksternal atau menyediakan layanan untuk aplikasi lain melalui HTTP.**
 
-# Latihan Materi React Hook
+# Latihan Materi Restfull API With Javascript
 
-**Soal Prioritas 1** 
 
--    Dengan menggunakan useEffect buatlah sebuah alert yang bertulisan “Welcome” ketika mereka membuka halaman CreateAccount.
+-    Pada data dari form input komponen CreateProduct.jsx yang sebelumnya disimpan kedalam state dan LocalStorage. Sekarang simpan data tersebuh ke Rest API yang sudah kalian buat dengan MockAPI menggunakan librrary axios      dan dengan http method POST dan tampilkan pesan sukses jika berhasil menyimpan data.
 
-Script
+![POST Method](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/useEffect%20Welcome_1.png)
 
-![useEffect Welcome](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/useEffect%20Welcome_1.png)
 
-Output
+
+-    Buatlah fitur update data user dihalaman ListProduct.jsx dan update data product dari RestAPI yang sudah kalian buat dengan MockAPI. Update data product dengan mengirim request ke Rest API tersebut menggunakan             library axios dengan http method PUT dan tampilkan pesan sukses diupdate jika berhasil mengupdate data.
 
 ![useEffect Welcome](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/useEffect%20Welcome.png)
 
 
--    Dengan menggunakan UseState masukkan setiap data yang kalian isi pada halaman CreateProduct ke dalam tabel.
+
+-    Buatlah fitur delete data product dihalaman ListProduct.jsx. Lakukan request ke server Rest API dengan axios ke endpoint untuk delete data dengan http method DELETE dan berikan pesan sukses delete jika berhasil            menghapus data dari server Rest API.
 
 ![useState Table Data](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/useState%20ListProduct.png)
-
--    Nomor dibuat random menggunakan UUID atau sejenisnya. pastikan tidak ada duplikasi nomor.
-
-![RandomID](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/ID%20Random.png)
-
-
-**Soal Prioritas 2**
-
-Buatlah tombol delete berfungsi, pastikan ketika ingin melakukan delete terdapat alert/modal/notifikasi yang bertuliskan apakah kalian ingin menghapus.
-  
--    Jika pilih hapus maka data baru akan terhapus.
-
-![DeleteProduct](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/Ketika%20tekan%20Yes%20di%20alert%20ingin%20hapus%20Product.png)
-
-
--    Jika pilih tidak maka alert/modal/notifikasi akan hilang.
-
-![DeleteProduct Alert](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/Alert%20ingin%20hapus%20Product.png)
-
-
-**Soal Eksplorasi**
-
--    Buatlah fitur edit berfugsi, kalian bebas menggunakan hook, library atau hal lain sesuai keinginan kalian.
-
-handleEditCLick
-
-![EditFeatures](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/handleEditClick.png)
-
-
-handleSaveEdit
-
-![EditFeatures](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/HandleSaveEdit.png)
-
-
--    Flow untuk melakukan edit tidak di tentukan, yang terpenting adalah kalian dapat melakukan edit data
-
-Sebelum Edit
-
-![SebelumEdit](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/Sebelum%20Edit%20ProductName.png)
-
-
-Sesudah Edit
-
-![SesudahEdit](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/Setelah%20Edit%20ProductName.png)
