@@ -5,8 +5,7 @@
 
 **1. REST (Representational State Transfer) :**
 
-     REST adalah pendekatan arsitektural yang digunakan dalam pengembangan web untuk merancang sistem yang berbasis sumber daya (resources) yang dapat diakses melalui antarmuka (API) dengan berbagai metode komunikasi, seperti HTTP.
-     Kita akan memahami prinsip-prinsip arsitektur REST, termasuk konsep sumber daya (resources), representasi (representation), operasi (operations), antarmuka (interface), dan status sistem (stateless).
+     REST adalah pendekatan arsitektural yang digunakan dalam pengembangan web untuk merancang sistem yang berbasis sumber daya (resources) yang dapat diakses melalui antarmuka (API) dengan berbagai metode komunikasi, seperti HTTP. Kita akan memahami prinsip-prinsip arsitektur REST, termasuk konsep sumber daya (resources), representasi (representation), operasi (operations), antarmuka (interface), dan status sistem (stateless).
 
 **2.HTTP Methods (Metode HTTP):**
 
@@ -14,7 +13,7 @@
 
 **3.Representasi Data dan Endpoints:**
 
-    Data dalam RESTful API direpresentasikan dalam format tertentu, seperti JSON atau XML. Anda akan memahami bagaimana data diambil, dikirim, dan diterima melalui permintaan HTTP.Kita juga akan mempelajari tentang endpoints, yang merupakan URL yang digunakan untuk mengakses sumber daya tertentu. Penggunaan yang tepat dari endpoint adalah kunci dalam merancang API yang kuat dan mudah digunakan.
+    Data dalam RESTful API direpresentasikan dalam format tertentu, seperti JSON atau XML. Kita akan memahami bagaimana data diambil, dikirim, dan diterima melalui permintaan HTTP. Kita juga akan mempelajari tentang endpoints, yang merupakan URL yang digunakan untuk mengakses sumber daya tertentu. Penggunaan yang tepat dari endpoint adalah kunci dalam merancang API yang kuat dan mudah digunakan.
 
 
 **Selain tiga poin di atas, RESTful API juga dapat mencakup topik-topik lain seperti autentikasi, otorisasi, paginasi, dan dokumentasi API. Pemahaman tentang konsep dasar RESTful API adalah kunci untuk membangun dan mengintegrasikan layanan web dalam pengembangan perangkat lunak modern.**
