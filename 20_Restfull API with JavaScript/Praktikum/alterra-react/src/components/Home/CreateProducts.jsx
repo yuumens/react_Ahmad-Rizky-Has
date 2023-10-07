@@ -33,7 +33,7 @@ const CreateProducts = () => {
       alert('Data produk berhasil disimpan');
     }
   } catch (error) {
-    console.error('Gagal menyimpan data produk:', error);
+    alert('Gagal menyimpan data produk');
   }
 };
 
