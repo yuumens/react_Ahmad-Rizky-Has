@@ -1,82 +1,87 @@
-# Resume Materi Section 13
+# Resume Materi Section 14
 
 3 Poin yang saya pelajari di materi ini adalah sebagai berikut: 
 
 
-**1.State dalam Komponen Fungsi:**
+**1.Komponen Form React:**
 
-     Salah satu konsep utama yang dipelajari dari React Hooks adalah penggunaan state dalam komponen fungsi. Sebelum adanya Hooks, state hanya dapat digunakan dalam komponen kelas. Dengan React Hooks seperti useState, Kita dapat mengelola state dalam komponen fungsi. Kita akan memahami cara menggunakan useState untuk menyimpan dan memperbarui state dalam komponen fungsi Kita, yang memungkinkan Kita untuk membuat komponen yang dinamis dan responsif.
+     React memungkinkan Kita untuk membuat komponen formulir yang dapat mengumpulkan, validasi, dan mengirim data dari pengguna. Dalam materi ini, Kita akan mempelajari cara membuat komponen formulir yang dapat digunakan untuk mengambil masukan pengguna, seperti input teks, tombol radio, kotak centang, dan banyak lagi. Kita juga akan memahami cara menghubungkan elemen-elemen ini dengan state React.
 
-**2.Efek Samping dengan 'useEffect':**
+**2.Manajemen State Form:**
 
-    Hooks juga memungkinkan Kita untuk mengelola efek samping dalam komponen fungsi menggunakan useEffect. Ini berarti Kita dapat menjalankan kode yang tidak langsung terkait dengan rendering komponen, seperti pemanggilan ke API atau interaksi dengan DOM, dan mengontrol kapan kode tersebut dijalankan. Kita akan memahami cara menggunakan useEffect untuk memasukkan efek samping ke dalam komponen Kita dan bagaimana mengaturnya agar berperilaku sesuai kebutuhan.
+    Penting untuk memahami bagaimana React mengelola state dalam formulir. Kita akan mempelajari cara mengikat nilai-nilai elemen formulir ke state React dan bagaimana mengelola perubahan pada state tersebut. Hal ini memungkinkan Kita untuk merespons input pengguna secara dinamis dan mengganti tampilan formulir berdasarkan data yang dimasukkan oleh pengguna.
 
-**3.Pemisahan Logika:**
+**3.Validasi Form:**
 
-    Dengan menggunakan Hooks, Kita dapat memisahkan logika yang terkait dengan komponen Kita menjadi bagian yang lebih terpisah dan dapat digunakan kembali. Ini membantu dalam memisahkan logika dari tampilan (konsep yang dikenal sebagai "pemisahan kepentingan") dan membuat komponen lebih mudah diuji. Kita akan memahami cara membuat custom Hooks untuk mengelola logika yang dapat digunakan kembali dalam berbagai komponen.
+    Validasi adalah bagian penting dari formulir. Kita akan belajar tentang cara melakukan validasi data yang dimasukkan oleh pengguna. Ini bisa mencakup validasi sederhana seperti memeriksa apakah suatu input tidak boleh kosong atau validasi yang lebih kompleks seperti memeriksa format email atau angka tertentu. React memungkinkan Anda untuk menangani validasi ini dengan mudah dan memberikan umpan balik yang sesuai kepada pengguna.
 
 
-**Selain tiga poin di atas, React Hooks juga memungkinkan Kita untuk mengelola konteks, referensi, dan siklus hidup komponen dalam komponen fungsi. Materi tentang React Hooks adalah langkah penting dalam evolusi pengembangan React dan membuka pintu bagi Developer untuk menulis komponen yang lebih sederhana, bersih, dan mudah diuji dalam lingkungan React.**
+**Selain tiga poin di atas, Kita juga akan mempelajari tentang pengiriman data formulir, pemrosesan data di sisi server, menangani perubahan dalam formulir (termasuk formulir dinamis), dan cara mengintegrasikan formulir React dengan berbagai library dan teknologi, seperti Redux, Axios, atau RESTful API. Memahami bagaimana bekerja dengan formulir React adalah keterampilan yang sangat penting untuk pengembangan aplikasi web interaktif dan berbasis formulir.**
 
-# Latihan Materi React Hook
+# Latihan Materi React Form
 
 **Soal Prioritas 1** 
 
--    Dengan menggunakan useEffect buatlah sebuah alert yang bertulisan “Welcome” ketika mereka membuka halaman CreateAccount.
+-    regex validasi pada product name, product category, product freshness, product price yang telah kalian buat pada halaman CreateProduct
 
-Script
-
-![useEffect Welcome](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/useEffect%20Welcome_1.png)
-
-Output
-
-![useEffect Welcome](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/useEffect%20Welcome.png)
-
-
--    Dengan menggunakan UseState masukkan setiap data yang kalian isi pada halaman CreateProduct ke dalam tabel.
-
-![useState Table Data](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/useState%20ListProduct.png)
-
--    Nomor dibuat random menggunakan UUID atau sejenisnya. pastikan tidak ada duplikasi nomor.
-
-![RandomID](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/ID%20Random.png)
+![ProductRegex](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Form/15_React%20Form/ScreenShots/ProductRegex.png)
 
 
 **Soal Prioritas 2**
-
-Buatlah tombol delete berfungsi, pastikan ketika ingin melakukan delete terdapat alert/modal/notifikasi yang bertuliskan apakah kalian ingin menghapus.
   
--    Jika pilih hapus maka data baru akan terhapus.
+-    Buatlah form image dan Product Freshness dapat berfungsi dan ketika user menggunakan form tersebut. datanya akan masuk ke dalam tabel
 
-![DeleteProduct](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/Ketika%20tekan%20Yes%20di%20alert%20ingin%20hapus%20Product.png)
+![ProductDetails](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Form/15_React%20Form/ScreenShots/ProductImage%20dan%20ProductFreshness.png)
 
 
--    Jika pilih tidak maka alert/modal/notifikasi akan hilang.
+-    Buatlah validasi untuk Image dan Product Freshness sehingga data yang di masukkan valid.
 
-![DeleteProduct Alert](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/Alert%20ingin%20hapus%20Product.png)
+![ProductImageValidation](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Form/15_React%20Form/ScreenShots/First%20Name%20dan%20Last%20Name%20minimal%203%20karakter.png)
+
+![ProductImageValidation](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Form/15_React%20Form/ScreenShots/First%20Name%20dan%20Last%20Name%20minimal%203%20karakter_1.png)
 
 
 **Soal Eksplorasi**
 
--    Buatlah fitur edit berfugsi, kalian bebas menggunakan hook, library atau hal lain sesuai keinginan kalian.
+-    Buat form registrasi pengguna yang meminta data first name, last name, username, email, password, dan confirm password dan pastikan validasi form yang diterapkan meliputi:
 
-handleEditCLick
+First name dan last name harus memiliki panjang minimal 3 karakter.
 
-![EditFeatures](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/handleEditClick.png)
-
-
-handleSaveEdit
-
-![EditFeatures](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/HandleSaveEdit.png)
+![FirstName dan LastName](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/handleEditClick.png)
 
 
--    Flow untuk melakukan edit tidak di tentukan, yang terpenting adalah kalian dapat melakukan edit data
+Email harus memiliki format email yang valid.
 
-Sebelum Edit
+![EmailValidate](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Form/15_React%20Form/ScreenShots/Validasi%20Email.png)
 
-![SebelumEdit](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/Sebelum%20Edit%20ProductName.png)
+![EmailValidate](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Form/15_React%20Form/ScreenShots/Validasi%20Email_1.png)
+
+Password harus memiliki panjang minimal 8 karakter dan harus cocok dengan confirm password.
+
+![PasswordValidate](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Form/15_React%20Form/ScreenShots/Validasi%20Password%20dan%20Confirm%20Password.png)
+
+![PasswordValidate](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Form/15_React%20Form/ScreenShots/Validasi%20Password%20dan%20Confirm%20Password_1.png)
 
 
-Sesudah Edit
+-    Buat form login yang meminta data email dan password. Gunakan state dan event handlers untuk mengontrol input dan memvalidasi form, dengan validasi sebagai berikut
 
-![SesudahEdit](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/Setelah%20Edit%20ProductName.png)
+Email harus memiliki format email yang valid dan Password harus memiliki panjang minimal 8 karakter.
+
+![LoginValidate](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Form/15_React%20Form/ScreenShots/LoginPageValidation.png)
+
+
+Tampilkan pesan error jika salah satu dari kedua field tidak valid.
+
+![LoginValidate](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Form/15_React%20Form/ScreenShots/Error%20Jika%20Salah%20Satu%20dari%20Kedua%20Field%20Tidak%20Valid.png)
+
+
+-    Buatlah form register dan login menjadi sebuah halaman. Kemudian, buat sebuah routing sehingga user dapat berpindah-pindah halaman. Kalian bebas bereksperimen terkait flow, tata leta, dan user interface pada kedua halaman ini.
+
+Register Page
+
+![RegisterPage](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Form/15_React%20Form/ScreenShots/RegisterPage.png)
+
+
+Login Page
+
+![LoginPage](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Form/15_React%20Form/ScreenShots/LoginPage.png)
