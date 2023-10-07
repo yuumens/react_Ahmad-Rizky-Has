@@ -37,18 +37,6 @@ const CreateProducts = () => {
   }
 };
 
-  // const handleDelete = () => {
-  //   if (products.length > 0) {
-  //     const shouldDelete = window.confirm('Apakah Anda yakin ingin menghapus produk ini?');
-
-  //     if (shouldDelete) {
-  //       const updatedProducts = [...products];
-  //       updatedProducts.pop();
-  //       setProducts(updatedProducts);
-  //     }
-  //   }
-  // };
-
   const onSubmit = (data) => {
     
     const {
