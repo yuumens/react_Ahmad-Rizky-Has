@@ -1,6 +1,8 @@
 USER : Give me examples of Honda motorcycle product
 
-ASSISTENT : 1. Honda CBR1000RR Fireblade: A high-performance sports bike designed for speed enthusiasts, featuring a powerful 1000cc engine, aerodynamic bodywork, and advanced electronics for superior handling and control.
+ASSISTENT : 
+
+1. Honda CBR1000RR Fireblade: A high-performance sports bike designed for speed enthusiasts, featuring a powerful 1000cc engine, aerodynamic bodywork, and advanced electronics for superior handling and control.
 
 2. Honda CRF450R: A rugged off-road motorcycle built for adrenaline-pumping dirt biking adventures. It boasts a 450cc engine, lightweight chassis, and cutting-edge suspension for exceptional off-road performance.
 
@@ -15,7 +17,9 @@ ASSISTENT : 1. Honda CBR1000RR Fireblade: A high-performance sports bike designe
 
 USER : Sort the motorcycle price from cheapest to most expensive
 
-ASSISTENT : 1. Honda Grom
+ASSISTENT : 
+
+1. Honda Grom
 2. Honda Rebel 500
 3. Honda CB500X
 4. Honda CRF450R
@@ -25,7 +29,9 @@ ASSISTENT : 1. Honda Grom
 
 USER : Give me suggestion their motorcycle very suitable for use in Indonesia
 
-ASSISTANT : 1. Honda Supra GTR150: A popular and affordable motorcycle in Indonesia, known for its fuel efficiency, durability, and versatility. It offers a comfortable riding position and reliable performance for daily commuting.
+ASSISTANT : 
+
+1. Honda Supra GTR150: A popular and affordable motorcycle in Indonesia, known for its fuel efficiency, durability, and versatility. It offers a comfortable riding position and reliable performance for daily commuting.
 
 2. Honda CB150R ExMotion: A stylish and powerful streetfighter motorcycle, ideal for urban riding in Indonesia. It features a 150cc engine, sporty design, and advanced features like LED lighting and digital instrument cluster.
 
@@ -38,7 +44,9 @@ ASSISTANT : 1. Honda Supra GTR150: A popular and affordable motorcycle in Indone
 
 USER : The last, give me the price their motorcycle's
 
-ASSISTANT : Please note that the prices of motorcycles can vary depending on various factors such as location, taxes, import/export fees, and dealership pricing. Therefore, the following prices are approximate and may not reflect the current market conditions in Indonesia.
+ASSISTANT : 
+
+Please note that the prices of motorcycles can vary depending on various factors such as location, taxes, import/export fees, and dealership pricing. Therefore, the following prices are approximate and may not reflect the current market conditions in Indonesia.
 
 1. Honda Supra GTR150: Prices range from approximately IDR 21 million to IDR 23 million.
 
