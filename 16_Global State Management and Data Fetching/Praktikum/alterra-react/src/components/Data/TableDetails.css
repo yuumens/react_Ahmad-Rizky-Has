@@ -1,0 +1,23 @@
+.product-details {
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(172, 180, 178);
+}
+
+.product-details > h2 {
+  color: black;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product-details-content > p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: inline-block;
+  padding: 5px;
+  margin-top: 2vh;
+  border-radius: 5px;
+  margin-left: 4vh;
+  color: black;
+  text-align: justify;
+  background-color: antiquewhite;
+}
