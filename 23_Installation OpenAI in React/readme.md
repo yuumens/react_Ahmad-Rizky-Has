@@ -34,6 +34,11 @@
       ![OutputScriptForm](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Installation-OpenAI-React/23_Installation%20OpenAI%20in%20React/ScreenShots/Script%20Input%20dan%20Submit.png)
 
 
+-    Hubungkan halaman tersebut dengan OpenAI sehingga ketika kita melakukan input akan dijawab oleh OpenAI mode Davinci 03
+
+![Connect OpenAI Mode Davinci 003](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/Installation-OpenAI-React/23_Installation%20OpenAI%20in%20React/ScreenShots/Menghubungkan%20dengan%20OpenAI%20Mode%20Davinci%2003.png)
+
+
 # Soal Prioritas 2
 
 -    Masukkan CSS atau interaksi lain yang menarik pada halaman sehingga mudah untuk digunakan
