@@ -1,7 +1,22 @@
 const initialState = {
   products: [
     {
-      id: "e7ce2b97-d0c1-4a75-9c1d-e6dfc8441836",
+      id: "1",
+
+      productName: "John",
+
+      productCategory: "Doe",
+
+      productFreshness: "Doe",
+
+      productPrice: "Doe",
+
+      productImage: "Doe",
+
+      additionalDescription: "Doe",
+    },
+    {
+      id: "2",
 
       productName: "John",
 

@@ -28,18 +28,6 @@ const CreateProducts = (props) => {
   };
   
 
-  // const handleDelete = () => {
-  //   if (products.length > 0) {
-  //     const shouldDelete = window.confirm('Apakah Anda yakin ingin menghapus produk ini?');
-
-  //     if (shouldDelete) {
-  //       const updatedProducts = [...products];
-  //       updatedProducts.pop();
-  //       props.createProduct(product);
-  //     }
-  //   }
-  // };
-
   const onSubmit = (data) => {
     
     const {
