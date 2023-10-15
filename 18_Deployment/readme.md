@@ -1,82 +1,26 @@
-# Resume Materi Section 13
+# Resume Materi Section 18
 
 3 Poin yang saya pelajari di materi ini adalah sebagai berikut: 
 
 
-**1.State dalam Komponen Fungsi:**
+**1.Pemahaman tentang Build dan Production Mode:**
 
-     Salah satu konsep utama yang dipelajari dari React Hooks adalah penggunaan state dalam komponen fungsi. Sebelum adanya Hooks, state hanya dapat digunakan dalam komponen kelas. Dengan React Hooks seperti useState, Kita dapat mengelola state dalam komponen fungsi. Kita akan memahami cara menggunakan useState untuk menyimpan dan memperbarui state dalam komponen fungsi Kita, yang memungkinkan Kita untuk membuat komponen yang dinamis dan responsif.
+     Saat Kita mengembangkan aplikasi React, Kita biasanya bekerja dalam mode pengembangan (development mode) menggunakan server pengembangan lokal. Sebelum Kita mendeploy aplikasi Kita, Kita perlu memahami perbedaan antara mode pengembangan dan mode produksi (production mode). Mode produksi mengoptimalkan aplikasi Kita untuk kinerja yang lebih baik, menghilangkan pernyataan-pernyataan debug, dan menggantikan beberapa konfigurasi yang relevan hanya pada saat pengembangan. Pastikan untuk membuat build produksi sebelum mendeploy aplikasi Kita.
 
-**2.Efek Samping dengan 'useEffect':**
+**2.Pemilihan Platform Deployment:**
 
-    Hooks juga memungkinkan Kita untuk mengelola efek samping dalam komponen fungsi menggunakan useEffect. Ini berarti Kita dapat menjalankan kode yang tidak langsung terkait dengan rendering komponen, seperti pemanggilan ke API atau interaksi dengan DOM, dan mengontrol kapan kode tersebut dijalankan. Kita akan memahami cara menggunakan useEffect untuk memasukkan efek samping ke dalam komponen Kita dan bagaimana mengaturnya agar berperilaku sesuai kebutuhan.
+    Ada banyak platform yang dapat Kita gunakan untuk deployment aplikasi React, seperti Vercel, Netlify, AWS Amplify, Firebase Hosting, dan lainnya. Penting untuk memilih platform yang sesuai dengan kebutuhan proyek Kita. Beberapa faktor yang perlu dipertimbangkan adalah kemudahan penggunaan, skalabilitas, fitur-fitur seperti otomatisasi CI/CD (Continuous Integration/Continuous Deployment), dan biaya. Setelah memilih platform, Kita perlu mengikuti panduan atau prosedur mereka untuk melakukan deployment.
 
-**3.Pemisahan Logika:**
+**3.Konfigurasi Lingkungan Produksi:**
 
-    Dengan menggunakan Hooks, Kita dapat memisahkan logika yang terkait dengan komponen Kita menjadi bagian yang lebih terpisah dan dapat digunakan kembali. Ini membantu dalam memisahkan logika dari tampilan (konsep yang dikenal sebagai "pemisahan kepentingan") dan membuat komponen lebih mudah diuji. Kita akan memahami cara membuat custom Hooks untuk mengelola logika yang dapat digunakan kembali dalam berbagai komponen.
-
-
-**Selain tiga poin di atas, React Hooks juga memungkinkan Kita untuk mengelola konteks, referensi, dan siklus hidup komponen dalam komponen fungsi. Materi tentang React Hooks adalah langkah penting dalam evolusi pengembangan React dan membuka pintu bagi Developer untuk menulis komponen yang lebih sederhana, bersih, dan mudah diuji dalam lingkungan React.**
-
-# Latihan Materi React Hook
-
-**Soal Prioritas 1** 
-
--    Dengan menggunakan useEffect buatlah sebuah alert yang bertulisan “Welcome” ketika mereka membuka halaman CreateAccount.
-
-Script
-
-![useEffect Welcome](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/useEffect%20Welcome_1.png)
-
-Output
-
-![useEffect Welcome](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/useEffect%20Welcome.png)
+    Saat Kita mendeploy aplikasi React, Kita perlu memastikan bahwa lingkungan produksi sudah dikonfigurasi dengan benar. Hal ini termasuk mengatur variabel-variabel lingkungan (environment variables) yang diperlukan untuk mengelola konfigurasi seperti kunci API atau pengaturan server. Selain itu, pastikan bahwa Kita telah mengatasi masalah keamanan, seperti proteksi terhadap serangan CSRF (Cross-Site Request Forgery) dan XSS (Cross-Site Scripting), serta telah mengaktifkan HTTPS untuk mengamankan komunikasi antara pengguna dan server.
 
 
--    Dengan menggunakan UseState masukkan setiap data yang kalian isi pada halaman CreateProduct ke dalam tabel.
-
-![useState Table Data](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/useState%20ListProduct.png)
-
--    Nomor dibuat random menggunakan UUID atau sejenisnya. pastikan tidak ada duplikasi nomor.
-
-![RandomID](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/ID%20Random.png)
+**Deployment adalah tahap penting dalam siklus pengembangan aplikasi web React yang memungkinkan aplikasi Kita dapat diakses oleh pengguna secara online. Pemahaman tentang mode produksi, pemilihan platform yang sesuai, dan konfigurasi lingkungan produksi adalah faktor-faktor kunci untuk kesuksesan dalam deployment proyek React Kita.**
 
 
-**Soal Prioritas 2**
+# Latihan Materi Deployemnt
 
-Buatlah tombol delete berfungsi, pastikan ketika ingin melakukan delete terdapat alert/modal/notifikasi yang bertuliskan apakah kalian ingin menghapus.
-  
--    Jika pilih hapus maka data baru akan terhapus.
+Hasil Deployment Project React Saya di Vercel
 
-![DeleteProduct](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/Ketika%20tekan%20Yes%20di%20alert%20ingin%20hapus%20Product.png)
-
-
--    Jika pilih tidak maka alert/modal/notifikasi akan hilang.
-
-![DeleteProduct Alert](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/Alert%20ingin%20hapus%20Product.png)
-
-
-**Soal Eksplorasi**
-
--    Buatlah fitur edit berfugsi, kalian bebas menggunakan hook, library atau hal lain sesuai keinginan kalian.
-
-handleEditCLick
-
-![EditFeatures](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/handleEditClick.png)
-
-
-handleSaveEdit
-
-![EditFeatures](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/HandleSaveEdit.png)
-
-
--    Flow untuk melakukan edit tidak di tentukan, yang terpenting adalah kalian dapat melakukan edit data
-
-Sebelum Edit
-
-![SebelumEdit](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/Sebelum%20Edit%20ProductName.png)
-
-
-Sesudah Edit
-
-![SesudahEdit](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/Setelah%20Edit%20ProductName.png)
+[Deployment With Vercel](https://react-deployment-30qifkgwu-exagodzrpml-gmailcom.vercel.app/)
