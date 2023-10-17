@@ -3,7 +3,7 @@
 3 Poin yang saya pelajari di materi ini adalah sebagai berikut: 
 
 
-**1.Penggunaan OpenAI GPT-3 dalam React:**
+**1.Penggunaan OpenAI GPT-3.5 dalam React:**
 
      Kita dapat mempelajari cara mengintegrasikan model OpenAI GPT-3 dengan aplikasi React. Hal ini mencakup bagaimana cara menginisialisasi model, mengirim permintaan, dan mengelola respons yang diterima dari model tersebut.
 
