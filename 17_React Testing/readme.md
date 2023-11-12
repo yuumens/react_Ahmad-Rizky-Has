@@ -31,8 +31,7 @@
 
 -    Buatlah file baru bernama CreateProduct.test.js didirectory yang sama tempat CreateProduct.jsx disimpan
 
-![CreateProduct.test.js]([https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/useEffect%20Welcome_1.png])
-
+![CreateProduct.test.js](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Testing/17_React%20Testing/ScreenShots/Membuat%20File%20CreateProduct.test.js.png)
 
 -    Pada file CreateProduct.test.js buatlah test untuk memastikan bahwa form input Product Name dapat menerima input teks dan menampilkannya di halaman.
 
@@ -58,4 +57,9 @@
 
 -    Buatlah test untuk memastikan validasi semua form field tersebut tidak boleh kosong.
 
-![SesudahEdit](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Testing/17_React%20Testing/ScreenShots/Semua%20Form%20Field%20Tidak%20Boleh%20Kosong.png)
+![Testing Semua Form Tidak Boleh Kosong](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Testing/17_React%20Testing/ScreenShots/Semua%20Form%20Field%20Tidak%20Boleh%20Kosong.png)
+
+
+**Hasil Testing**
+
+![Hasil Testing](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Testing/17_React%20Testing/ScreenShots/Hasil%20Testing.png)
