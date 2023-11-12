@@ -1,82 +1,61 @@
-# Resume Materi Section 13
+# Resume Materi Section 17
 
 3 Poin yang saya pelajari di materi ini adalah sebagai berikut: 
 
 
-**1.State dalam Komponen Fungsi:**
+**1.Unit Testing Komponen:**
 
-     Salah satu konsep utama yang dipelajari dari React Hooks adalah penggunaan state dalam komponen fungsi. Sebelum adanya Hooks, state hanya dapat digunakan dalam komponen kelas. Dengan React Hooks seperti useState, Kita dapat mengelola state dalam komponen fungsi. Kita akan memahami cara menggunakan useState untuk menyimpan dan memperbarui state dalam komponen fungsi Kita, yang memungkinkan Kita untuk membuat komponen yang dinamis dan responsif.
+     Unit testing adalah pendekatan untuk menguji komponen secara terisolasi. Dalam konteks React, ini berarti menguji setiap komponen secara terpisah untuk memastikan bahwa setiap komponen berfungsi dengan benar.
+     
+     Pada level unit testing, Kita dapat menggunakan Library seperti Jest untuk membuat dan menjalankan tes. Jest menyediakan fungsi untuk membuat tes, mensimulasikan peristiwa, dan memeriksa hasil yang diharapkan.
 
-**2.Efek Samping dengan 'useEffect':**
+**2.Integration Testing:**
 
-    Hooks juga memungkinkan Kita untuk mengelola efek samping dalam komponen fungsi menggunakan useEffect. Ini berarti Kita dapat menjalankan kode yang tidak langsung terkait dengan rendering komponen, seperti pemanggilan ke API atau interaksi dengan DOM, dan mengontrol kapan kode tersebut dijalankan. Kita akan memahami cara menggunakan useEffect untuk memasukkan efek samping ke dalam komponen Kita dan bagaimana mengaturnya agar berperilaku sesuai kebutuhan.
+     Integration testing fokus pada pengujian cara komponen-komponen berinteraksi satu sama lain. Misalnya, Kita dapat menguji apakah komponen induk dapat berkomunikasi dengan benar dengan komponen anaknya, atau apakah perubahan dalam satu komponen   memengaruhi dengan benar komponen lainnya.
+     
+     Tes integrasi seringkali melibatkan mounting komponen dalam konteks tertentu dan menguji perilaku mereka ketika berinteraksi dalam lingkungan yang lebih kompleks.
 
-**3.Pemisahan Logika:**
+**3.Snapshot Testing:**
 
-    Dengan menggunakan Hooks, Kita dapat memisahkan logika yang terkait dengan komponen Kita menjadi bagian yang lebih terpisah dan dapat digunakan kembali. Ini membantu dalam memisahkan logika dari tampilan (konsep yang dikenal sebagai "pemisahan kepentingan") dan membuat komponen lebih mudah diuji. Kita akan memahami cara membuat custom Hooks untuk mengelola logika yang dapat digunakan kembali dalam berbagai komponen.
+     Snapshot testing adalah metode di mana Kita menyimpan "snapshot" dari output yang diharapkan dari suatu komponen dan kemudian membandingkannya dengan hasil aktual setiap kali tes dijalankan. Jika ada perubahan yang tidak diinginkan, tes akan gagal.
+     
+     Ini sangat berguna untuk memastikan bahwa perubahan yang disengaja atau tidak disengaja pada komponen tidak mempengaruhi tampilan atau perilaku yang diharapkan.
+     
+     Jest sering digunakan bersama dengan Library seperti Enzyme untuk mengimplementasikan snapshot testing.
 
 
-**Selain tiga poin di atas, React Hooks juga memungkinkan Kita untuk mengelola konteks, referensi, dan siklus hidup komponen dalam komponen fungsi. Materi tentang React Hooks adalah langkah penting dalam evolusi pengembangan React dan membuka pintu bagi Developer untuk menulis komponen yang lebih sederhana, bersih, dan mudah diuji dalam lingkungan React.**
 
-# Latihan Materi React Hook
+# Latihan Materi React Testing
 
 **Soal Prioritas 1** 
 
--    Dengan menggunakan useEffect buatlah sebuah alert yang bertulisan “Welcome” ketika mereka membuka halaman CreateAccount.
+-    Buatlah file baru bernama CreateProduct.test.js didirectory yang sama tempat CreateProduct.jsx disimpan
 
-Script
-
-![useEffect Welcome](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/useEffect%20Welcome_1.png)
-
-Output
-
-![useEffect Welcome](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/useEffect%20Welcome.png)
+![CreateProduct.test.js]([https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/useEffect%20Welcome_1.png])
 
 
--    Dengan menggunakan UseState masukkan setiap data yang kalian isi pada halaman CreateProduct ke dalam tabel.
+-    Pada file CreateProduct.test.js buatlah test untuk memastikan bahwa form input Product Name dapat menerima input teks dan menampilkannya di halaman.
 
-![useState Table Data](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/useState%20ListProduct.png)
+![Form Input Test](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Testing/17_React%20Testing/ScreenShots/Test%20Untuk%20ProductName%20dapat%20Menerima%20Input%20Teks.png)
 
--    Nomor dibuat random menggunakan UUID atau sejenisnya. pastikan tidak ada duplikasi nomor.
 
-![RandomID](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/ID%20Random.png)
+-    Buatlah test untuk memastikan bahwa pilihan setiap form yang dipilih dapat disimpan dan ditampilkan dengan benar.
+
+![Form Testing](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Testing/17_React%20Testing/ScreenShots/Form%20Yang%20Dipilih%20Dapat%20Disimpan%20dan%20Di%20Tampilkan.png)
 
 
 **Soal Prioritas 2**
-
-Buatlah tombol delete berfungsi, pastikan ketika ingin melakukan delete terdapat alert/modal/notifikasi yang bertuliskan apakah kalian ingin menghapus.
   
--    Jika pilih hapus maka data baru akan terhapus.
+-    Buatlah test untuk memastikan validasi form input yang benar, seperti memastikan bahwa Product Name tidak boleh kosong, tidak mengandung karakter @/#{}.
 
-![DeleteProduct](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/Ketika%20tekan%20Yes%20di%20alert%20ingin%20hapus%20Product.png)
-
-
--    Jika pilih tidak maka alert/modal/notifikasi akan hilang.
-
-![DeleteProduct Alert](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/Alert%20ingin%20hapus%20Product.png)
+![Validasi Input Tanpa Karakter Spesial](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Testing/17_React%20Testing/ScreenShots/ProductName%20Tidak%20Boleh%20Kosong%20dan%20Mengandung%20Karakter%20Spesial.png)
 
 
-**Soal Eksplorasi**
+-    Buatlah test untuk memastikan validasi form input yang benar bahwaProduct Name tidak melebihin 25 karakter
 
--    Buatlah fitur edit berfugsi, kalian bebas menggunakan hook, library atau hal lain sesuai keinginan kalian.
-
-handleEditCLick
-
-![EditFeatures](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/handleEditClick.png)
+![Test Product Name Tidak Lebih dari 25 Karakter](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Testing/17_React%20Testing/ScreenShots/ProductName%20Tidak%20Boleh%20Melebihi%2025%20Karakter.png)
 
 
-handleSaveEdit
+-    Buatlah test untuk memastikan validasi semua form field tersebut tidak boleh kosong.
 
-![EditFeatures](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/HandleSaveEdit.png)
-
-
--    Flow untuk melakukan edit tidak di tentukan, yang terpenting adalah kalian dapat melakukan edit data
-
-Sebelum Edit
-
-![SebelumEdit](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/Sebelum%20Edit%20ProductName.png)
-
-
-Sesudah Edit
-
-![SesudahEdit](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Hook/13_React%20Hook/ScreenShots/Setelah%20Edit%20ProductName.png)
+![SesudahEdit](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Testing/17_React%20Testing/ScreenShots/Semua%20Form%20Field%20Tidak%20Boleh%20Kosong.png)
