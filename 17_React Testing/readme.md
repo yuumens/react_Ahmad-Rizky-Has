@@ -60,6 +60,6 @@
 ![Testing Semua Form Tidak Boleh Kosong](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Testing/17_React%20Testing/ScreenShots/Semua%20Form%20Field%20Tidak%20Boleh%20Kosong.png)
 
 
-**Hasil Testing**
+**-    Hasil Testing.**
 
 ![Hasil Testing](https://github.com/yuumens/react_Ahmad-Rizky-Has/blob/feat/React-Testing/17_React%20Testing/ScreenShots/Hasil%20Testing.png)
